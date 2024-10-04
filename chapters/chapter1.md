@@ -4,4 +4,4 @@ Electric power systems are among the largest structural achievements of man. Som
 
 | August 10, 1996 western US-Canada system |
 |:---------------------------------------:|
-|![Line flow transient](/figures/fig_1p1.png =400x) |
+| <img src="figures/fig_1p1.png" alt="PSTess logo" width=400px margin="auto" /> |
