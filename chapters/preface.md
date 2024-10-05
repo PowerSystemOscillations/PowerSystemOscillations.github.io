@@ -23,6 +23,7 @@ The text is based on the author’s experience of over 40 years as an engineer i
         2000
     </span>
 </p>
+<br />
 
 ## Preface to the Second Edition
 
