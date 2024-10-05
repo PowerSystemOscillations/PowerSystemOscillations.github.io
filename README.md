@@ -13,8 +13,8 @@ us keep track of and document issues. We also welcome feedback via
 email.
 
 ### Email
-Author team account `@gmail.com: PowerSystemOscillations`
-Project maintainer (Ryan Elliott) `@ieee.org: ryanelliott`<br />
+Author team account `@gmail.com: PowerSystemOscillations`<br />
+Project maintainer (Ryan Elliott) `@ieee.org: ryanelliott`
 
 ### Dedication
 This second edition is dedicated to the memory of Graham Rogers, a
@@ -22,11 +22,11 @@ modest scientist and engineer, whose contributions to power system
 small-signal analysis are immense.
 
 ### Authors
-Graham J. Rogers, *Cherry Tree Scientific Software*
-Ryan T. Elliott, *Sandia National Laboratories*
-Daniel J. Trudnowski, *Montana Tech*
-Felipe Wilches-Bernal, *formerly with Sandia National Laboratories*
-Denis Osipov, *New York Power Authority*
+Graham J. Rogers, *Cherry Tree Scientific Software*<br />
+Ryan T. Elliott, *Sandia National Laboratories*<br />
+Daniel J. Trudnowski, *Montana Tech*<br />
+Felipe Wilches-Bernal, *formerly with Sandia National Laboratories*<br />
+Denis Osipov, *New York Power Authority*<br />
 Joe H. Chow, *Rensselaer Polytechnic Institute*
 
 ## Recommended citation
