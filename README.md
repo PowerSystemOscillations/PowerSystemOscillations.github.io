@@ -5,7 +5,7 @@
     <img src="chapters/figures/fig_1p1.png" alt="Line flow transient" width=480px margin="auto" />
 </div>
 
-##
+## &nbsp;&nbsp;
 Welcome to the homepage for Power System Oscillations, Second
 Edition. The [Navigating the homepage](#navigating) section will
 help point you in the right direction.
