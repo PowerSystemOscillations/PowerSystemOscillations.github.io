@@ -32,7 +32,7 @@ remote synchrophasor signals to derive its control action.
 
 <div style="display: flex; justify-content: center;" width="100%">
     <figure>
-        <img src="figures/fig_13p2.png" alt="Western Interconnection simplified model" width=480px margin="auto" />
+        <img src="figures/fig_13p2.png" alt="Western Interconnection simplified model" width=360px margin="auto" />
         <figcaption>Fig. 13.2: Western Interconnection simplified model</figcaption>
     </figure>
 </div>
