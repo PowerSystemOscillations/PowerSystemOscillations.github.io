@@ -1,7 +1,7 @@
 # Power System Oscillations
 ## 2nd Ed.: An Introduction to Oscillation Analysis and Control
 
-<div style="display: flex; justify-content: center;" width="100%">
+<div style="display: flex; justify-content: left;" width="100%">
     <img src="chapters/figures/fig_1p1.png" alt="Line flow transient" width=480px margin="auto" />
 </div>
 
