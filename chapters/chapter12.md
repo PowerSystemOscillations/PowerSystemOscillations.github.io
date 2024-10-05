@@ -16,7 +16,7 @@ modal characteristics.
 
 <div style="display: flex; justify-content: center;" width="100%">
     <figure>
-        <img src="figures/fig_12p1.jpg" alt="System response types" width=600px margin="auto" />
+        <img src="figures/fig_12p1.png" alt="System response types" width=600px margin="auto" />
         <figcaption>Fig. 12.1: System response types</figcaption>
     </figure>
 </div>
