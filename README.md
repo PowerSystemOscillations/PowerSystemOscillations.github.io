@@ -61,7 +61,8 @@ Joe H. Chow, *Rensselaer Polytechnic Institute*
     }
 
 ## Errata
-Errors and typographical mistakes will be [tracked here](errata.md).
+Errors and typographical mistakes found in the book will be
+[tracked here](errata.md).
 
 ## Navigating the homepage
 <a id="navigating"></a>
