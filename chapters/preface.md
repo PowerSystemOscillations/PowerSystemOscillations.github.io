@@ -15,10 +15,10 @@ The text is based on the author’s experience of over 40 years as an engineer i
     </span>
     <span style="float:right;">
         <i>Graham Rogers</i>
+    </span><br />
+    <span style="float:left;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </span>
-</p><br />
-<p style="text-align:left;">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <span style="float:right;">
         2000
     </span>
@@ -42,34 +42,34 @@ We would like to acknowledge many individuals who had worked with us and offered
     </span>
     <span style="float:right;">
         <i>Ryan T. Elliott</i>
-    </span><br>
+    </span><br />
     <span style="float:left;">
         Butte, Montana
     </span>
     <span style="float:right;">
         <i>Daniel J. Trudnowski</i>
-    </span><br>
+    </span><br />
     <span style="float:left;">
         Boulder, Colorado
     </span>
     <span style="float:right;">
         <i>Felipe Wilches-Bernal</i>
-    </span><br>
+    </span><br />
     <span style="float:left;">
         Albany, New York
     </span>
     <span style="float:right;">
         <i>Denis Osipov</i>
-    </span><br>
+    </span><br />
     <span style="float:left;">
         Troy, New York
     </span>
     <span style="float:right;">
         <i>Joe H. Chow</i>
+    </span><br />
+    <span style="float:left;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </span>
-</p><br />
-<p style="text-align:left;">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <span style="float:right;">
         August 2024
     </span>
