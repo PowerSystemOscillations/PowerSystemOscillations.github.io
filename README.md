@@ -58,7 +58,7 @@ Errors and typographical mistakes will be [tracked here](chapters/errata.md).
 ## Navigating the homepage
 <a id="navigating"></a>
 - [Purchasing the book](#purchasing)
-- [Power System Toolbox](#pst)
+- [Power System Toolbox for MATLAB](#pst)
 - [Data and analysis files](#data)
 - [Book overview](#overview)
 - [Frequently Asked Questions](#faq)
@@ -70,10 +70,14 @@ Errors and typographical mistakes will be [tracked here](chapters/errata.md).
 <a id="purchasing"></a>
 + Link to Springer or Amazon to buy the book
 
-## Information about PST and PSTess
+## Power System Toolbox for MATLAB
 <a id="pst"></a>
 + Explanation of PST versions, which to avoid, which to use
+
+### Power System Toolbox (PST)
 + Link to Joe's PST
+
+### Power and Energy Storage Systems Toolbox (PSTess)
 + Description and link to PSTess
 
 ## Data and analysis files
