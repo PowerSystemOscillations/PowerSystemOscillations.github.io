@@ -52,13 +52,15 @@ Joe H. Chow, *Rensselaer Polytechnic Institute*
       year      = 2025
     }
 
+## Errata
+Errors and typographical mistakes will be [tracked here](chapters/errata.md).
+
 ## Navigating the homepage
 <a id="navigating"></a>
 - [Purchasing the book](#purchasing)
 - [Power System Toolbox](#pst)
 - [Data and analysis files](#data)
 - [Book overview](#overview)
-- [Errata](#errata)
 - [Frequently Asked Questions](#faq)
     - [General](#general)
 
@@ -77,10 +79,6 @@ Joe H. Chow, *Rensselaer Polytechnic Institute*
 ## Data and analysis files
 <a id="data"></a>
 + Link to Matlab files
-
-## Errata
-<a id="errata"></a>
-+ List of known errors/typos and resolutions
 
 ## Book overview
 <a id="overview"></a>
