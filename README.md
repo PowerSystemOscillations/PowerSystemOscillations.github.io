@@ -62,7 +62,6 @@ Errors and typographical mistakes will be [tracked here](chapters/errata.md).
 - [Data and analysis files](#data)
 - [Book overview](#overview)
 - [Frequently Asked Questions](#faq)
-    - [General](#general)
 
 + Add a references section
 
@@ -110,13 +109,10 @@ Errors and typographical mistakes will be [tracked here](chapters/errata.md).
 ## Frequently asked questions
 <a id="faq"></a>
 
-### General
-<a id="general"></a>
-
 > I think I found a typo or an error in the book, what should I do?
 
 Please use the
 [Issues feature](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/issues)
 of this repository. This helps others join the discussion and helps
-us keep track of and document issues. Alternatively you can contact
-the author team [via email here](mailto:powersystemoscillations@gmail.com).
+us keep track of and document issues. Alternatively, you can contact
+the author team [via email here](mailto:PowerSystemOscillations@gmail.com).
