@@ -16,7 +16,7 @@ The text is based on the author’s experience of over 40 years as an engineer i
     <span style="float:right;">
         <i>Graham Rogers</i>
     </span>
-</p>
+</p><br />
 <p style="text-align:left;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <span style="float:right;">
@@ -67,7 +67,7 @@ We would like to acknowledge many individuals who had worked with us and offered
     <span style="float:right;">
         <i>Joe H. Chow</i>
     </span>
-</p>
+</p><br />
 <p style="text-align:left;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <span style="float:right;">
