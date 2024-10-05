@@ -17,11 +17,9 @@ The text is based on the author’s experience of over 40 years as an engineer i
         <i>Graham Rogers</i>
     </span>
 </p>
-<p style="text-align:left;">
-    <span style="float:right;">
-        2000
-    </span>
-</p>
+<span style="float:right;">
+    2000
+</span>
 
 ## Preface to the Second Edition
 
@@ -67,10 +65,8 @@ We would like to acknowledge many individuals who had worked with us and offered
         <i>Joe H. Chow</i>
     </span>
 </p>
-<p style="text-align:left;">
-    <span style="float:right;">
-        August 2024
-    </span>
-</p>
+<span style="float:right;">
+    August 2024
+</span>
 
 [comment]: <> (eof)
