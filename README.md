@@ -1,5 +1,5 @@
-# Power System Oscillations, 2nd Edition
-## An Introduction to Oscillation Analysis and Control
+# Power System Oscillations
+## 2nd Ed.: An Introduction to Oscillation Analysis and Control
 
 Data and examples for the second edition of Power System Oscillations
 
