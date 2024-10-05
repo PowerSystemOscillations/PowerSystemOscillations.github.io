@@ -10,7 +10,9 @@ The Power System Toolbox for use with MATLAB is used to perform all the analyses
 The text is based on the author’s experience of over 40 years as an engineer in the power industry and as an educator.
 
 <p style="text-align:left;">
-    Colborne, Ontario, Canada
+    <span style="float:left;">
+        Colborne, Ontario, Canada
+    </span>
     <span style="float:right;">
         <i>Graham Rogers</i>
     </span>
@@ -32,31 +34,33 @@ As mentioned earlier, the new materials consist primarily of data-driven analysi
 We would like to acknowledge many individuals who had worked with us and offered their engineering insights to us. John F. Hauer (Bonneville Power Administration and Pacific Northwest National Laboratory) started the use of the Prony method for phasor measurement data analysis. John W. Pierre (University of Wyoming) applied spectral analysis methods to power system ambient data. Dmitry N. Kosterev (BPA) whose phasor data analysis of US Western Interconnection Blackouts raised the importance of phasor data and proper tuning of power system stabilizers. Brian Pierre, David Schoenwald, Ray Byrne, and Jason Neely contributed significantly to the Pacific DC Intertie (PDCI) Damping Controller Project. Philip Overholt had the foresight to commit DOE funding to install phasor measurement units throughout the US power grids. The PDCI project would not have been possible without support from him and his DOE colleague Imre Gyuk. You Wu, an RPI undergraduate student, was instrumental in updating Chapters 1 through 10 with LaTeX, color figures, and MATLAB m-files. We are very much indebted to them. We would also like to acknowledge the National Science Foundation, US Department of Energy, Pacific Northwest National Laboratory, and Sandia National Laboratories for their many years of research support.
 
 <p style="text-align:left;">
-    Albuquerque, New Mexico
+    <span style="float:left;">
+        Albuquerque, New Mexico
+    </span>
     <span style="float:right;">
         <i>Ryan T. Elliott</i>
+    </span><br>
+    <span style="float:left;">
+        Butte, Montana
     </span>
-</p>
-<p style="text-align:left;">
-    Butte, Montana
     <span style="float:right;">
         <i>Daniel J. Trudnowski</i>
+    </span><br>
+    <span style="float:left;">
+        Boulder, Colorado
     </span>
-</p>
-<p style="text-align:left;">
-    Boulder, Colorado
     <span style="float:right;">
         <i>Felipe Wilches-Bernal</i>
+    </span><br>
+    <span style="float:left;">
+        Albany, New York
     </span>
-</p>
-<p style="text-align:left;">
-    Albany, New York
     <span style="float:right;">
         <i>Denis Osipov</i>
+    </span><br>
+    <span style="float:left;">
+        Troy, New York
     </span>
-</p>
-<p style="text-align:left;">
-    Troy, New York
     <span style="float:right;">
         <i>Joe H. Chow</i>
     </span>
