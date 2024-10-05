@@ -22,7 +22,7 @@ generator, at least until this reaches one of its limits.
 
 <div style="display: flex; justify-content: center;" width="100%">
     <figure>
-        <img src="figures/fig_6p1.png" alt="Turbine-governor block diagram" width=480px margin="auto" />
+        <img src="figures/fig_6p1.png" alt="Turbine-governor block diagram" width=600px margin="auto" />
         <figcaption>Fig. 6.1: Block diagram of a typical hydraulic turbine/governor system</figcaption>
     </figure>
 </div>

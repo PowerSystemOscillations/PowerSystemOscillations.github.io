@@ -20,7 +20,7 @@ inverter-based resources.
 <div style="display: flex; justify-content: center;" width="100%">
     <figure>
         <img src="figures/fig_15p1.png" alt="Simplified reec block diagram" width=480px margin="auto" />
-        <figcaption>Fig. 15.1: Simplified block diagram of the reactive power-voltage control implemented in reec</figcaption>
+        <figcaption>Fig. 15.1: Simplified block diagram of the reec reactive power-voltage control</figcaption>
     </figure>
 </div>
 

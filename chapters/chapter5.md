@@ -16,7 +16,7 @@ from other groups of coherent generators by weak interconnections.
 
 <div style="display: flex; justify-content: center;" width="100%">
     <figure>
-        <img src="figures/fig_5p1.png" alt="Single-line diagram" width=480px margin="auto" />
+        <img src="figures/fig_5p1.png" alt="Single-line diagram" width=600px margin="auto" />
         <figcaption>Fig. 5.1: Single-line diagram of four generator plant</figcaption>
     </figure>
 </div>

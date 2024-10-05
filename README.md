@@ -111,7 +111,7 @@ Errors and typographical mistakes will be [tracked here](errata.md).
 ## Frequently asked questions
 <a id="faq"></a>
 
-> I think I found a typo or an error in the book, what should I do?
+> What should I do if I find an error in an analysis script or a typo in the book?
 
 Please use the
 [Issues feature](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/issues)

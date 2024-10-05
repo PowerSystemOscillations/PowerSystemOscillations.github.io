@@ -15,7 +15,7 @@ learning more about this topic.
 
 <div style="display: flex; justify-content: center;" width="100%">
     <figure>
-        <img src="figures/fig_9p1.png" alt="General control block diagram" width=480px margin="auto" />
+        <img src="figures/fig_9p1.png" alt="General control block diagram" width=400px margin="auto" />
         <figcaption>Fig. 9.1: General control block diagram</figcaption>
     </figure>
 </div>

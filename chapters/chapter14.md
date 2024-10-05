@@ -23,7 +23,7 @@ measurements from the North America Eastern Interconnection.
 
 <div style="display: flex; justify-content: center;" width="100%">
     <figure>
-        <img src="figures/fig_14p1.png" alt="2019 Eastern Interconnection oscillation" width=480px margin="auto" />
+        <img src="figures/fig_14p1.png" alt="2019 Eastern Interconnection oscillation" width=600px margin="auto" />
         <figcaption>Fig. 14.1: Bus Voltage Magnitude&mdash;January 11, 2019 Eastern Interconnection system</figcaption>
     </figure>
 </div>

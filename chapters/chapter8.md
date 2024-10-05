@@ -14,7 +14,7 @@ and their solutions in some detail in this chapter.
 
 <div style="display: flex; justify-content: center;" width="100%">
     <figure>
-        <img src="figures/fig_8p1.png" alt="Single-generator infinite-bus system" width=480px margin="auto" />
+        <img src="figures/fig_8p1.png" alt="Single-generator infinite-bus system" width=600px margin="auto" />
         <figcaption>Fig. 8.1: Single-generator infinite-bus system</figcaption>
     </figure>
 </div>
