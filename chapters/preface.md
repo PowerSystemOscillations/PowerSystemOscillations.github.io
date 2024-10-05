@@ -17,9 +17,12 @@ The text is based on the author’s experience of over 40 years as an engineer i
         <i>Graham Rogers</i>
     </span>
 </p>
-<span style="float:right;">
-    2000
-</span>
+<p style="text-align:left;">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span style="float:right;">
+        2000
+    </span>
+</p>
 
 ## Preface to the Second Edition
 
@@ -65,8 +68,11 @@ We would like to acknowledge many individuals who had worked with us and offered
         <i>Joe H. Chow</i>
     </span>
 </p>
-<span style="float:right;">
-    August 2024
-</span>
+<p style="text-align:left;">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span style="float:right;">
+        August 2024
+    </span>
+</p>
 
 [comment]: <> (eof)
