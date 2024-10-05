@@ -2,7 +2,7 @@
 ## 2nd Ed.: An Introduction to Oscillation Analysis and Control
 
 Welcome to the homepage for Power System Oscillations, Second
-Edition. The [navigating the homepage](#navigating) section will
+Edition. The [Navigating the homepage](#navigating) section will
 help point you in the right direction.
 
 ## Contact
