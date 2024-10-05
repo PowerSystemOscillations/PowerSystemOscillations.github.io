@@ -38,7 +38,7 @@ Joe H. Chow, *Rensselaer Polytechnic Institute*
     J. Chow, "Power System Oscillations: An Introduction to Oscillation
     Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
 
-### BibTex
+### BibTeX
 
     @book{rogers2025,
       title     = {Power System Oscillations: An Introduction to
