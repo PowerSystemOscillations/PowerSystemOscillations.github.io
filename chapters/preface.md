@@ -12,9 +12,11 @@ The text is based on the author’s experience of over 40 years as an engineer i
 <p style="text-align:left;">
     Colborne, Ontario, Canada
     <span style="float:right;">
-        *Graham Rogers*<br>
-        2000
+        <i>Graham Rogers</i>
     </span>
+</p>
+<p style="text-align:right;">
+    2000
 </p>
 
 ## Preface to the Second Edition
@@ -32,20 +34,37 @@ To our readers, we ask you to please drop us a note if you find typos, and more 
 We would like to acknowledge many individuals who had worked with us and offered their engineering insights to us. John F. Hauer (Bonneville Power Administration and Pacific Northwest National Laboratory) started the use of the Prony method for phasor measurement data analysis. John W. Pierre (University of Wyoming) applied spectral analysis methods to power system ambient data. Dmitry N. Kosterev (BPA) whose phasor data analysis of US Western Interconnection Blackouts raised the importance of phasor data and proper tuning of power system stabilizers. Brian Pierre, David Schoenwald, Ray Byrne, and Jason Neely contributed significantly to the Pacific DC Intertie (PDCI) Damping Controller Project. Philip Overholt had the foresight to commit DOE funding to install phasor measurement units throughout the US power grids. The PDCI project would not have been possible without support from him and his DOE colleague Imre Gyuk. You Wu, an RPI undergraduate student, was instrumental in updating Chapters 1 through 10 with LaTeX, color figures, and MATLAB m-files. We are very much indebted to them. We would also like to acknowledge the National Science Foundation, US Department of Energy, Pacific Northwest National Laboratory, and Sandia National Laboratories for their many years of research support.
 
 <p style="text-align:left;">
-    Albuquerque, New Mexico<br>
-    Butte, Montana<br>
-    Boulder, Colorado<br>
-    Albany, New York<br>
-    Troy, New York<br>
-    August 2024
+    Albuquerque, New Mexico
     <span style="float:right;">
-        <i>Ryan T. Elliott</i><br>
-        <i>Daniel J. Trudnowski</i><br>
-        <i>Felipe Wilches-Bernal</i><br>
-        <i>Denis Osipov</i><br>
-        <i>Joe H. Chow</i><br>
-        August 2024
+        <i>Ryan T. Elliott</i>
     </span>
+</p>
+<p style="text-align:left;">
+    Butte, Montana
+    <span style="float:right;">
+        <i>Daniel J. Trudnowski</i>
+    </span>
+</p>
+<p style="text-align:left;">
+    Boulder, Colorado
+    <span style="float:right;">
+        <i>Felipe Wilches-Bernal</i>
+    </span>
+</p>
+<p style="text-align:left;">
+    Albany, New York
+    <span style="float:right;">
+        <i>Denis Osipov</i>
+    </span>
+</p>
+<p style="text-align:left;">
+    Troy, New York
+    <span style="float:right;">
+        <i>Joe H. Chow</i>
+    </span>
+</p>
+<p style="text-align:right;">
+    August 2024
 </p>
 
 [comment]: <> (eof)
