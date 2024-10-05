@@ -4,7 +4,7 @@ Power system oscillations are complex, and they are not straightforward to analy
 
 <div style="display: flex; justify-content: center;" width="100%">
     <figure>
-        <img src="../figures/fig_2p1.png" alt="Single-line diagram" width=480px margin="auto" />
+        <img src="figures/fig_2p1.png" alt="Single-line diagram" width=480px margin="auto" />
         <figcaption>Fig. 2.1: Single-line diagram of the two-area system</figcaption>
     </figure>
 </div>

@@ -4,7 +4,7 @@ Electric power systems are among the largest structural achievements of man. Som
 
 <div style="display: flex; justify-content: center;" width="100%">
     <figure>
-        <img src="../figures/fig_1p1.png" alt="Line flow transient" width=480px margin="auto" />
+        <img src="figures/fig_1p1.png" alt="Line flow transient" width=480px margin="auto" />
         <figcaption>Fig 1.1: Line flow transient&mdash;August 10, 1996 western US-Canada system</figcaption>
     </figure>
 </div>
