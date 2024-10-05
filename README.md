@@ -1,19 +1,117 @@
 # Power System Oscillations
 ## 2nd Ed.: An Introduction to Oscillation Analysis and Control
 
-Data and examples for the second edition of Power System Oscillations
+Welcome to the homepage for Power System Oscillations, Second
+Edition. The [navigating the homepage](#navigating) section will
+help point you in the right direction.
 
+## Contact
+For issues and feedback, we would appreciate it if you could use the
+[Issues feature](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/issues)
+of this repository. This helps others join the discussion and helps
+us keep track of and document issues. We also welcome feedback via
+email.
+
+### Email
+Author team account `@gmail.com: PowerSystemOscillations`
+Project maintainer (Ryan Elliott) `@ieee.org: ryanelliott`<br />
+
+### Authors
+This book was co-authored by:
+<p style="text-align:left;">
+    <span style="float:left;">
+        Graham Rogers
+    </span>
+    <span style="float:right;">
+        <i>Cherry Tree Scientific Software</i>
+    </span><br />
+    <span style="float:left;">
+        Ryan T. Elliott
+    </span>
+    <span style="float:right;">
+        <i>Sandia National Laboratories</i>
+    </span><br />
+    <span style="float:left;">
+        Daniel J. Trudnowski
+    </span>
+    <span style="float:right;">
+        <i>Montana Tech</i>
+    </span><br />
+    <span style="float:left;">
+        Felipe Wilches-Bernal
+    </span>
+    <span style="float:right;">
+        <i>formerly with Sandia National Laboratories</i>
+    </span><br />
+    <span style="float:left;">
+        Denis Osipov
+    </span>
+    <span style="float:right;">
+        <i>New York Power Authority</i>
+    </span><br />
+    <span style="float:left;">
+        Joe H. Chow
+    </span>
+    <span style="float:right;">
+        <i>Rensselaer Polytechnic Institute</i>
+    </span>
+</p>
+
+## Recommended citation
+<a id="citation"></a>
+
+### IEEE style
+
+    G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+    J. Chow, "Power System Oscillations: An Introduction to Oscillation
+    Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+### BibTex
+
+    @book{rogers2025,
+      title     = {Power System Oscillations: An Introduction to
+                   Oscillation Analysis and Control},
+      edition   = {Second},
+      author    = {Rogers, Graham J. and Elliott, Ryan T.
+                   and Trudnowski, Daniel J. and Wilches-Bernal, Felipe
+                   and Osipov, Denis and Chow, Joe H.},
+      publisher = {Springer},
+      address   = {New York},
+      year      = 2025
+    }
+
+## Navigating the homepage
+<a id="navigating"></a>
+- [Purchasing the book](#purchasing)
+- [Power System Toolbox](#pst)
+- [Data and analysis files](#data)
+- [Book overview](#overview)
+- [Errata](#errata)
+- [Frequently Asked Questions](#faq)
+    - [General](#general)
+
++ Add a references section
+
+## Purchasing the Book
+<a id="purchasing"></a>
 + Link to Springer or Amazon to buy the book
-+ Link to Matlab files
+
+## Information about PST and PSTess
+<a id="pst"></a>
 + Explanation of PST versions, which to avoid, which to use
 + Link to Joe's PST
 + Description and link to PSTess
-+ Errata, typos, etc.
-+ Contact information
 
-Welcome image
+## Data and analysis files
+<a id="data"></a>
++ Link to Matlab files
 
-## Table of contents
+## Errata
+<a id="errata"></a>
++ List of known errors/typos and resolutions
+
+## Book overview
+<a id="overview"></a>
 - Front Matter
     - [Preface](chapters/preface.md)
     - [Chapter 1: Introduction](chapters/chapter1.md)
@@ -34,7 +132,17 @@ Welcome image
     - [Chapter 13: Wide-Area Control](chapters/chapter13.md)
     - [Chapter 14: Forced Oscillations](chapters/chapter14.md)
     - [Chapter 15: Inverter-Based Resources](chapters/chapter15.md)
-- [Frequently Asked Questions](#faq)
-    - [General](#general)
 
-+ Add a references section
+## Frequently asked questions
+<a id="faq"></a>
+
+### General
+<a id="general"></a>
+
+> I think I found a typo or an error in the book, what should I do?
+
+Please use the
+[Issues feature](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/issues)
+of this repository. This helps others join the discussion and helps
+us keep track of and document issues. Alternatively you can contact
+the author team [via email here](mailto:powersystemoscillations@gmail.com).
