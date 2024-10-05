@@ -16,46 +16,18 @@ email.
 Author team account `@gmail.com: PowerSystemOscillations`
 Project maintainer (Ryan Elliott) `@ieee.org: ryanelliott`<br />
 
+### Dedication
+This second edition is dedicated to the memory of Graham Rogers, a
+modest scientist and engineer, whose contributions to power system
+small-signal analysis are immense.
+
 ### Authors
-This book was co-authored by:
-<p style="text-align:left;">
-    <span style="float:left;">
-        Graham Rogers
-    </span>
-    <span style="float:right;">
-        <i>Cherry Tree Scientific Software</i>
-    </span><br />
-    <span style="float:left;">
-        Ryan T. Elliott
-    </span>
-    <span style="float:right;">
-        <i>Sandia National Laboratories</i>
-    </span><br />
-    <span style="float:left;">
-        Daniel J. Trudnowski
-    </span>
-    <span style="float:right;">
-        <i>Montana Tech</i>
-    </span><br />
-    <span style="float:left;">
-        Felipe Wilches-Bernal
-    </span>
-    <span style="float:right;">
-        <i>formerly with Sandia National Laboratories</i>
-    </span><br />
-    <span style="float:left;">
-        Denis Osipov
-    </span>
-    <span style="float:right;">
-        <i>New York Power Authority</i>
-    </span><br />
-    <span style="float:left;">
-        Joe H. Chow
-    </span>
-    <span style="float:right;">
-        <i>Rensselaer Polytechnic Institute</i>
-    </span>
-</p>
+Graham J. Rogers, *Cherry Tree Scientific Software*
+Ryan T. Elliott, *Sandia National Laboratories*
+Daniel J. Trudnowski, *Montana Tech*
+Felipe Wilches-Bernal, *formerly with Sandia National Laboratories*
+Denis Osipov, *New York Power Authority*
+Joe H. Chow, *Rensselaer Polytechnic Institute*
 
 ## Recommended citation
 <a id="citation"></a>
