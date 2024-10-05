@@ -3,7 +3,7 @@
 
 <div style="display: flex; justify-content: left;" width="100%">
     <img src="chapters/figures/fig_1p1.png" alt="Line flow transient" width=480px margin="auto" />
-</div>
+</div><br>
 
 Welcome to the homepage for Power System Oscillations, Second
 Edition. The [Navigating the homepage](#navigating) section will
