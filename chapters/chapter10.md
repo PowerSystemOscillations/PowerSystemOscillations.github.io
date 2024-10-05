@@ -22,7 +22,7 @@ functions of the devices when the operating conditions change.
 <div style="display: flex; justify-content: center;" width="100%">
     <figure>
         <img src="figures/fig_10p2.png" alt="Dominant modes" width=480px margin="auto" />
-        <figcaption>Fig. 10.2: Dominant modes of the base system with no controls</figcaption>
+        <figcaption>Fig. 10.2: Dominant modes of the base system with no additional controls</figcaption>
     </figure>
 </div>
 
