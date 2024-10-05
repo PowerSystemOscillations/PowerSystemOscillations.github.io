@@ -1,0 +1,26 @@
+emtran*: classical model, d2aem.m
+
+emtranpma1: change in torque 0.01 at gen. 1, -0.01 at gen. 2 (figs. 2, 4)
+emtranpma2: change in torque 0.01 at gen. 3, -0.01 at gen. 4 (figs. 3, 5)
+emtranpma12: change in torque 0.01 at gen. 1, -0.01 at gen. 3 (figs. 6, 7)
+emtranpma21: change in torque -0.01 at gen. 1, 0.01 at gen. 3 (figs. 8, 9)
+emtran3pf: three-phase fault at bus 3, (fig. 21)
+
+%-----------------------------------------------------------------------------%
+sbtran*: detailed generator model without control (subtransient), d2asb.m
+
+sbtranpma1: change in torque 0.01 at gen. 1, -0.01 at gen. 2 (figs. 10, 11)
+sbtranpma2: change in torque 0.01 at gen. 3, -0.01 at gen. 4 (figs. 12, 13)
+sbtranpma12: change in torque 0.01 at gen. 1, -0.01 at gen. 3 (figs. 14, 15)
+sbtranpma12: change in torque -0.01 at gen. 1, 0.01 at gen. 3 (none)
+sbtran3pf: three-phase fault at bus 3, (fig. 22)
+
+%-----------------------------------------------------------------------------%
+sbegtran*: detailed generator model with control (subtransient), d2asbeg.m
+
+sbegtranpma1: change in torque 0.01 at gen. 1, -0.01 at gen. 2 (figs. 16, 17)
+sbegtranpr1: step change of 0.01 in Pmech of generator 1 (fig. 18)
+sbegtranvr1: step change of 0.01 in Vref of generator 1 (fig. 19, 20)
+sbgetran3pf: three-phase fault at bus 3, (fig. 23)
+
+% eof
