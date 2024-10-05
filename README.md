@@ -6,11 +6,14 @@ Edition. The [Navigating the homepage](#navigating) section will
 help point you in the right direction.
 
 ## Contact
-For typos and feedback, we would appreciate it if you could use the
+For issues and feedback related to the code that accompanies the
+book, we would appreciate it if you could use the
 [Issues feature](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/issues)
 of this repository. This helps others join the discussion and helps
-us keep track of and document errata. We also welcome feedback via
-email.
+us keep track of and document issues. This is also a good way to
+inform us about typos or potential errors in the book itself. In
+addition to the Issues feature, we welcome feedback at the email
+addresses below.
 
 ### Email
 Author team account `@gmail.com: PowerSystemOscillations`<br />
@@ -61,10 +64,10 @@ Errors and typographical mistakes will be [tracked here](errata.md).
 - [Power System Toolbox for MATLAB](#pst)
 - [Data and analysis files](#data)
 - [Book overview](#overview)
-- [Frequently Asked Questions](#faq)
+- [Frequently asked questions](#faq)
 - [References](#references)
 
-## Purchasing the Book
+## Purchasing the book
 <a id="purchasing"></a>
 + Coming soon: Link to Springer or Amazon to buy the book
 
