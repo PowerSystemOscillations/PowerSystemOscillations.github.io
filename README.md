@@ -6,15 +6,15 @@ Edition. The [Navigating the homepage](#navigating) section will
 help point you in the right direction.
 
 ## Contact
-For issues and feedback, we would appreciate it if you could use the
+For typos and feedback, we would appreciate it if you could use the
 [Issues feature](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/issues)
 of this repository. This helps others join the discussion and helps
-us keep track of and document issues. We also welcome feedback via
+us keep track of and document errata. We also welcome feedback via
 email.
 
 ### Email
 Author team account `@gmail.com: PowerSystemOscillations`<br />
-Project maintainer (Ryan Elliott) `@ieee.org: ryanelliott`
+Project maintainer `@ieee.org: ryanelliott`
 
 ### Dedication
 This second edition is dedicated to the memory of Graham Rogers, a
@@ -53,7 +53,7 @@ Joe H. Chow, *Rensselaer Polytechnic Institute*
     }
 
 ## Errata
-Errors and typographical mistakes will be [tracked here](chapters/errata.md).
+Errors and typographical mistakes will be [tracked here](errata.md).
 
 ## Navigating the homepage
 <a id="navigating"></a>
@@ -62,12 +62,11 @@ Errors and typographical mistakes will be [tracked here](chapters/errata.md).
 - [Data and analysis files](#data)
 - [Book overview](#overview)
 - [Frequently Asked Questions](#faq)
-
-+ Add a references section
+- [References](#references)
 
 ## Purchasing the Book
 <a id="purchasing"></a>
-+ Link to Springer or Amazon to buy the book
++ Coming soon: Link to Springer or Amazon to buy the book
 
 ## Power System Toolbox for MATLAB
 <a id="pst"></a>
@@ -116,3 +115,6 @@ Please use the
 of this repository. This helps others join the discussion and helps
 us keep track of and document issues. Alternatively, you can contact
 the author team [via email here](mailto:PowerSystemOscillations@gmail.com).
+
+## References
+<a id="references"></a>
