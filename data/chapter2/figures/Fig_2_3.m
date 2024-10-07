@@ -4,13 +4,13 @@
 
 %% fig 2.2
 
-% emtranpma2: change in torque 0.01 at gen. 3, -0.01 at gen. 4 (figs. 3, 5)
+% emtranpma2.mat: change in torque 0.01 at gen. 3, -0.01 at gen. 4 (figs. 3, 5)
 
 clear all; close all; clc;
 load('../mat/emtranpma2.mat');
 
-Fs = 30;                       % sample rate
-tt = t(1):1/Fs:t(end);         % time vector with constant step size
+Fs = 30;                                      % sample rate
+tt = t(1):1/Fs:t(end);                        % time vector
 
 %-------------------------------------%
 % fig 3
@@ -37,15 +37,15 @@ legend(ax31,{'gen1','gen2'},'location','best');
 legend(ax32,{'gen3','gen4'},'location','best');
 
 % exporting data file
-mac_spd_dec = interp1(t,mac_spd.',tt).';            % downsampling
+mac_spd_dec = interp1(t,mac_spd.',tt).';      % downsampling
 
 H3 = {'t','c1','c2','c3','c4'};
 M3 = [tt; mac_spd_dec(1,:)-mac_spd_dec(1,1); mac_spd_dec(2,:)-mac_spd_dec(2,1); ...
           mac_spd_dec(3,:)-mac_spd_dec(3,1); mac_spd_dec(4,:)-mac_spd_dec(4,1)];
 
 fid3 = fopen(fig3_name,'w');
-fprintf(fid3,'%s,%s,%s,%s,%s\n',H3{:});             % must match number of columns
-fprintf(fid3,'%6e,%6e,%6e,%6e,%6e\n',M3);           % must match number of columns
+fprintf(fid3,'%s,%s,%s,%s,%s\n',H3{:});
+fprintf(fid3,'%6e,%6e,%6e,%6e,%6e\n',M3);
 fclose(fid3);
 
 % eof

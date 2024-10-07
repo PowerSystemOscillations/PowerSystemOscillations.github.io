@@ -4,13 +4,13 @@
 
 %% fig 2.11
 
-% sbtranpma1: change in torque 0.01 at gen. 1, -0.01 at gen. 2 (figs. 10, 11)
+% sbtranpma1.mat: change in torque 0.01 at gen. 1, -0.01 at gen. 2 (figs. 10, 11)
 
 clear all; close all; clc;
 load('../mat/sbtranpma1.mat');
 
-Fs = 30;                       % sample rate
-tt = t(1):1/Fs:t(end);         % time vector with constant step size
+Fs = 30;                                      % sample rate
+tt = t(1):1/Fs:t(end);                        % time vector
 
 %-------------------------------------%
 % fig 11
@@ -27,7 +27,7 @@ ylabel(ax111,'Voltage magnitude (pu)');
 legend(ax111,{'bus3','bus13'},'location','best');
 
 % exporting data file
-bus_v_dec = interp1(t,bus_v.',tt).';  % downsampling
+bus_v_dec = interp1(t,bus_v.',tt).';          % downsampling
 
 H11 = {'t','c1','c2'};
 M11 = [tt; abs(bus_v_dec(3,:)); abs(bus_v_dec(8,:))];

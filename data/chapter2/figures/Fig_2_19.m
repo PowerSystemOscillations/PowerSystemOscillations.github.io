@@ -4,13 +4,13 @@
 
 %% fig 2.19
 
-% sbegtranvr1: step change of 0.01 in Vref of generator 1 (fig. 19, 20)
+% sbegtranvr1.mat: step change of 0.01 in Vref of generator 1 (fig. 19, 20)
 
 clear all; close all; clc;
 load('../mat/sbegtranvr1.mat');
 
-Fs = 30;                       % sample rate
-tt = t(1):1/Fs:t(end);         % time vector with constant step size
+Fs = 30;                                      % sample rate
+tt = t(1):1/Fs:t(end);                        % time vector
 
 %-------------------------------------%
 % fig 19
@@ -40,7 +40,7 @@ legend(ax191,{'gen1','gen2'},'location','best');
 legend(ax192,{'gen3','gen4'},'location','best');
 
 % exporting data file
-Efd_dec = interp1(t,Efd.',tt).';            % downsampling
+Efd_dec = interp1(t,Efd.',tt).';              % downsampling
 
 H19 = {'t','c1','c2','c3','c4'};
 M19 = [tt; Efd_dec(1,:); Efd_dec(2,:); Efd_dec(3,:); Efd_dec(4,:)];

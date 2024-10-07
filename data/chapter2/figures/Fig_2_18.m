@@ -4,13 +4,13 @@
 
 %% fig 2.18
 
-% sbegtranpr1_10s: step change of 0.01 in Pmech of generator 1 (fig. 18)
+% sbegtranpr1.mat: step change of 0.01 in Pmech of generator 1 (fig. 18)
 
 clear all; close all; clc;
 load('../mat/sbegtranpr1.mat');
 
-Fs = 30;                       % sample rate
-tt = t(1):1/Fs:t(end);         % time vector with constant step size
+Fs = 30;                                      % sample rate
+tt = t(1):1/Fs:t(end);                        % time vector
 
 %-------------------------------------%
 % fig 18
@@ -37,7 +37,7 @@ legend(ax181,{'gen1','gen2'},'location','best');
 legend(ax182,{'gen3','gen4'},'location','best');
 
 % exporting data file
-mac_spd_dec = interp1(t,mac_spd.',tt).';            % downsampling
+mac_spd_dec = interp1(t,mac_spd.',tt).';      % downsampling
 
 H18 = {'t','c1','c2','c3','c4'};
 M18 = [tt; mac_spd_dec(1,:)-mac_spd_dec(1,1); mac_spd_dec(2,:)-mac_spd_dec(2,1); ...

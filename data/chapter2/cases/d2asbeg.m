@@ -1,4 +1,8 @@
-% Two Area Test Case
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+%% Two Area Test Case
 % sub transient generators with static exciters, turbine/governors
 % 50% constant current active loads
 % load modulation

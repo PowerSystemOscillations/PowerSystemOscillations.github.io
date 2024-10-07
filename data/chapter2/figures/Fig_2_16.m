@@ -9,8 +9,8 @@
 clear all; close all; clc;
 load('../mat/sbegtranpma1.mat');
 
-Fs = 60;                       % sample rate
-tt = t(1):1/Fs:t(end);         % time vector with constant step size
+Fs = 60;                                      % sample rate
+tt = t(1):1/Fs:t(end);                        % time vector
 
 %-------------------------------------%
 % fig 16
@@ -39,7 +39,7 @@ legend(ax161,{'gen1','gen2'},'location','best');
 legend(ax162,{'gen3','gen4'},'location','best');
 
 % exporting data file
-mac_spd_dec = interp1(t,mac_spd.',tt).';            % downsampling
+mac_spd_dec = interp1(t,mac_spd.',tt).';      % downsampling
 
 H16 = {'t','c1','c2','c3','c4'};
 M16 = [tt; mac_spd_dec(1,:)-mac_spd_dec(1,1); mac_spd_dec(2,:)-mac_spd_dec(2,1); ...

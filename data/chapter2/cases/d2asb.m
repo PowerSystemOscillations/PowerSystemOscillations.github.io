@@ -1,4 +1,8 @@
-% Two Area Test Case
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+%% Two Area Test Case
 % all subtransient generator model
 % no controls
 % 50% constant current active loads
@@ -6,7 +10,7 @@
 
 disp('Two-area test case with subtransient generator models')
 % bus data format
-% bus: 
+% bus:
 % col1 number
 % col2 voltage magnitude(pu)
 % col3 voltage angle(degree)
@@ -147,9 +151,8 @@ sw_con = [...
 0.1  3    101  0    0    6    0.01; %no fault at bus 3
 0.15 0    0    0    0    0    0.01; %clear near end
 0.20 0    0    0    0    0    0.01; %clear remote end
-0.50 0    0    0    0    0    0.01; % increase time step 
+0.50 0    0    0    0    0    0.01; % increase time step
 1.0  0    0    0    0    0    0.01; % increase time step
 10.0  0    0    0    0    0    0]; % end simulation
 
 %ibus_con = [0 0 0 0];
-

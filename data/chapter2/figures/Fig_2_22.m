@@ -4,13 +4,13 @@
 
 %% fig 2.22
 
-% sbtran3pf: three-phase fault at bus 3, (fig. 22)
+% sbtran3pf.mat: three-phase fault at bus 3, (fig. 22)
 
 clear all; close all; clc;
 load('../mat/sbtran3pf.mat');
 
-Fs = 60;                         % sample rate
-tt = [t(1:19),0.2:1/Fs:t(end)];  % time vector with constant step size
+Fs = 60;                                      % sample rate
+tt = [t(1:19),0.2:1/Fs:t(end)];               % time vector
 
 %-------------------------------------%
 %fig 22
@@ -28,7 +28,7 @@ ylabel(ax221,'Voltage (pu)');
 legend(ax221,{'bus3','bus13'},'location','northeast');
 
 %exporting data file
-bus_v_dec = interp1(t,bus_v.',tt,'spline').';  % downsampling
+bus_v_dec = interp1(t,bus_v.',tt).';          % downsampling
 
 H22 = {'t','c1','c2'};
 M22 = [tt; abs(bus_v_dec(3,:)); abs(bus_v_dec(8,:))];

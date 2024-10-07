@@ -1,3 +1,7 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
 emtran*: classical model, d2aem.m
 
 emtranpma1: change in torque 0.01 at gen. 1, -0.01 at gen. 2 (figs. 2, 4)

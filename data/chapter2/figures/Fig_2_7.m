@@ -4,13 +4,13 @@
 
 %% fig 2.7
 
-% emtranpma12: change in torque 0.01 at gen. 1, -0.01 at gen. 3 (figs. 6, 7)
+% emtranpma12.mat: change in torque 0.01 at gen. 1, -0.01 at gen. 3 (figs. 6, 7)
 
 clear all; close all; clc;
 load('../mat/emtranpma12.mat');
 
-Fs = 30;                       % sample rate
-tt = t(1):1/Fs:t(end);         % time vector with constant step size
+Fs = 30;                                      % sample rate
+tt = t(1):1/Fs:t(end);                        % time vector
 
 %-------------------------------------%
 % fig 7
@@ -29,7 +29,7 @@ axis(ax71,[v(1),v(2),0.977,0.994]);
 legend(ax71,{'bus3','bus13'},'location','best');
 
 % exporting data file
-bus_v_dec = interp1(t,bus_v.',tt).';  % downsampling
+bus_v_dec = interp1(t,bus_v.',tt).';          % downsampling
 
 H7 = {'t','c1','c2'};
 M7 = [tt; abs(bus_v_dec(3,:)); abs(bus_v_dec(8,:))];

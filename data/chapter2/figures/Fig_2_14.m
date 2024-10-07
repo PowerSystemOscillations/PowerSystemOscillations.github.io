@@ -4,13 +4,13 @@
 
 %% fig 2.14
 
-% sbtranpma12: change in torque 0.01 at gen. 1, -0.01 at gen. 3 (figs. 14, 15)
+% sbtranpma12.mat: change in torque 0.01 at gen. 1, -0.01 at gen. 3 (figs. 14, 15)
 
 clear all; close all; clc;
 load('../mat/sbtranpm12.mat');
 
-Fs = 60;                       % sample rate
-tt = t(1):1/Fs:t(end);         % time vector with constant step size
+Fs = 60;                                      % sample rate
+tt = t(1):1/Fs:t(end);                        % time vector
 
 %-------------------------------------%
 % fig 14
@@ -37,7 +37,7 @@ legend(ax141,{'gen1','gen2'},'location','best');
 legend(ax142,{'gen3','gen4'},'location','best');
 
 % exporting data file
-mac_spd_dec = interp1(t,mac_spd.',tt).';            % downsampling
+mac_spd_dec = interp1(t,mac_spd.',tt).';      % downsampling
 
 H14 = {'t','c1','c2','c3','c4'};
 M14 = [tt; mac_spd_dec(1,:)-mac_spd_dec(1,1); mac_spd_dec(2,:)-mac_spd_dec(2,1); ...
