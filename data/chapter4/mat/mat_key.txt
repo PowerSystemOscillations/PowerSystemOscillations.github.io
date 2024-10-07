@@ -1,0 +1,11 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+sbstsp.mat: detailed generator model without control, (figs. 1, 2, 3)
+sbfv.mat: root locus for residue analysis (fig. 4)
+sbgstsp.mat: detailed generator model with turbine governors (figs. 5, 6, 7, 9)
+smibncstsp.mat: nyquist analysis for single-machine infinite bus system (figs. 11, 12, 13)
+smibc.mat: smibc.mat: smib model for generator 1, state-space (fig. 14)
+
+% eof
