@@ -3,6 +3,7 @@
 % Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
 
 d2aem.m: Two-area test case with classical generator models
+d2aemmi.m: Two-area test case with classical generator models and modified inertia constants
 d2asb.m: Two-area test case with subtransient generator models
 d2asbeg.m: Two-area test case with subtransient generator models, static exciters, and turbine/governors
 

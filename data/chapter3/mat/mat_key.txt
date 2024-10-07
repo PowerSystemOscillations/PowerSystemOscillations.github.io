@@ -1,0 +1,29 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+2-area system with classical generator models, d2aem.m
+
+emstsp.mat: state-space model of d2aem.m (figs. 5, 8, 9)
+emtranpma1.mat: change in torque 0.01 at gen. 1, -0.01 at gen. 2
+
+%-----------------------------------------------------------------------------%
+2-area system, classical models with modified inertia constants, d2aemmi.m
+
+emmistsp.mat: state-space model of d2aemmi.m (fig. 6)
+emmitranpma1.mat: change in torque 0.01 at gen. 1, -0.01 at gen. 2 (fig. 7)
+
+%-----------------------------------------------------------------------------%
+2-area system, detailed subtransient generator models, d2asb.m
+
+sbstsp.mat: state-space model of d2asb.m (fig. 11)
+sbtranpma1.mat: change in torque 0.01 at gen. 1, -0.01 at gen. 2 (fig. 12)
+
+%-----------------------------------------------------------------------------%
+2-area system, detailed generator model with controls, d2asbeg.m
+
+sbegstsp.mat: state-space model of d2asbeg.m (figs. 13, 14, 15, 16)
+sbegtranpr1.mat: step change of 0.01 in Pmech of generator 1
+sbegtranvr1.mat: step change of 0.01 in Vref of generator 1
+
+% eof
