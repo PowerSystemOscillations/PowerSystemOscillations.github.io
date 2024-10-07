@@ -37,6 +37,8 @@ Felipe Wilches-Bernal, *formerly with Sandia National Laboratories*<br />
 Denis Osipov, *New York Power Authority*<br />
 Joe H. Chow, *Rensselaer Polytechnic Institute*
 
+Author bios may be [found here](chapters/bios.md).
+
 ## Recommended citation
 <a id="citation"></a>
 
@@ -94,6 +96,7 @@ Errors and typographical mistakes found in the book will be
 ## Book overview
 <a id="overview"></a>
 - Front Matter
+    - [About](chapters/about.md)
     - [Preface](chapters/preface.md)
     - [Chapter 1: Introduction](chapters/chapter1.md)
 - Part I: Modal Analysis
