@@ -1,0 +1,12 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+d2asb.m: Two-area test case with subtransient generator models
+d2asbg.m: Two-area test case with subtransient generator models and turbine/governors
+d2asbeg.m: Two-area test case with subtransient generator models, static exciters, and turbine/governors
+
+datasmib.m: SMIB model of generator 1 with controls, based on d2asbeg.m
+datasmibnc.m: SMIB model of generator 1 with no controls, based on d2asb.m
+
+% eof

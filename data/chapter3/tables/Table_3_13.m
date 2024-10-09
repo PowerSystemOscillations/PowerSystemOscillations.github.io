@@ -8,6 +8,10 @@
 
 clear all; close all; clc;
 load('../mat/sbstsp.mat');
+
+%-------------------------------------%
+% table 13
+
 tol = 1e-7;
 
 [~,D] = eig(a_mat);
@@ -40,10 +44,10 @@ for ii = 1:length(dm)
 end
 
 fprintf('\nTable 13. Damping ratio and frequency of the electromechanical oscillations f\n\n');
-fprintf('Damping ratio, Frequency (Hz)\n\n');
+fprintf('Frequency (Hz), Damping ratio\n\n');
 format short
 mask = (real(d) < 0 & imag(d) > 0);
-disp([-cos(angle(d(mask))),imag(d(mask))/2/pi])
+disp([imag(d(mask))/2/pi,-cos(angle(d(mask)))]);
 fprintf('Eigenvalue\n\n');
 disp(d(mask));
 

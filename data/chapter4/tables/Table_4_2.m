@@ -9,6 +9,9 @@
 clear all; close all; clc;
 load('../mat/sbstsp.mat');
 
+%-------------------------------------%
+% table 2
+
 format short
 fprintf('\nC matrix\n\n')
 disp(c_v(1,:).')

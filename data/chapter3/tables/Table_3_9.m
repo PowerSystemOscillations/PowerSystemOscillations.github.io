@@ -8,6 +8,10 @@
 
 clear all; close all; clc;
 load('../mat/emmistsp.mat');
+
+%-------------------------------------%
+% table 9
+
 tol = 1e-7;
 
 [V,D] = eig(a_mat);
@@ -39,12 +43,12 @@ for jj = 1:size(Vn,2)
     end
 end
 
-fprintf('\nTable 9. Right eigenvectors of the modified system (cols 1, 2)\n\n');
+fprintf('\nTable 9. Right eigenvectors of the modified system (cols 3, 4)\n\n');
 fprintf('lambda = %0.4f, lambda = %0.4f\n\n',d(1),d(2));
 format shorte
 disp([Vn(:,1),Vn(:,2)])
 
-fprintf('\nTable 9. Right eigenvectors of the modified system (cols 3--5)\n\n');
+fprintf('\nTable 9. Right eigenvectors of the modified system (cols 5--7)\n\n');
 fprintf('lambda = %0.4f+j%0.4f,lambda = %0.4f+j%0.4f,lambda = %0.4f+j%0.4f\n\n', ...
         real(d(4)),imag(d(4)),real(d(6)),imag(d(6)),real(d(8)),imag(d(8)));
 format short

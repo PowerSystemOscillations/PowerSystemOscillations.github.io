@@ -7,8 +7,11 @@
 % emstsp.mat: state-space model for d2aem.m
 
 clear all; close all; clc;
-
 load('../mat/emstsp.mat');
+
+%-------------------------------------%
+% table 1
+
 tol = 1e-7;
 
 [~,D] = eig(a_mat);

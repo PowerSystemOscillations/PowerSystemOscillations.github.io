@@ -8,6 +8,10 @@
 
 clear all; close all; clc;
 load('../mat/sbegstsp.mat');
+
+%-------------------------------------%
+% table 24
+
 tol = 1e-9;
 
 [V,D] = eig(a_mat);

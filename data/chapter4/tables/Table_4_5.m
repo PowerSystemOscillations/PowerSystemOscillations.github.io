@@ -8,6 +8,10 @@
 
 clear all; close all; clc;                    % reset workspace
 load('../mat/sbgstsp.mat');                   % state-space model
+
+%-------------------------------------%
+% table 5
+
 tol = 1e-7;
 
 [V,D] = eig(a_mat);

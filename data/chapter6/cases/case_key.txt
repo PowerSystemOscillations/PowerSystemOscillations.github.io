@@ -1,0 +1,10 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+data16em.m: 16-generator test case with classical generator models
+data16m1t.m: 16-generator test case with one tie-line in service
+data16m2t.m: 16-generator test case with two tie-lines in service
+data16m3t.m: 16-generator test case with three tie-lines in service
+
+% eof

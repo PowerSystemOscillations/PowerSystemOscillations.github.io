@@ -8,6 +8,10 @@
 
 clear all; close all; clc;
 load('../mat/emstsp.mat');
+
+%-------------------------------------%
+% table 3
+
 tol = 1e-7;
 
 [V,D] = eig(a_mat);
@@ -43,17 +47,19 @@ fprintf('Table 3. Right eigenvector for the inter-area mode\n\n');
 fprintf('lambda = %0.4f+j%0.4f\n\n',real(d(4)),imag(d(4)));
 format short
 disp(Vn(:,4))
-for ii = 1:length(Vn(:,4))
-    if abs(real(Vn(ii,4))) > 0
-        fprintf('%0.4f\n',real(Vn(ii,4)));
-    else
-        if imag(Vn(ii,4)) > 0
-            fprintf('j%0.4f\n',imag(Vn(ii,4)));
-        else
-            fprintf('-j%0.4f\n',abs(imag(Vn(ii,4))));
-        end
-    end
-end
+
+% for ii = 1:length(Vn(:,4))
+%     if abs(real(Vn(ii,4))) > 0
+%         fprintf('%0.4f\n',real(Vn(ii,4)));
+%     else
+%         if imag(Vn(ii,4)) > 0
+%             fprintf('j%0.4f\n',imag(Vn(ii,4)));
+%         else
+%             fprintf('-j%0.4f\n',abs(imag(Vn(ii,4))));
+%         end
+%     end
+% end
+
 fprintf('\n');
 
 % eof

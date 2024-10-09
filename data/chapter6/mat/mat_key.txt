@@ -1,0 +1,14 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+hydrotss.mat: hydro governor analysis, state-space (figs. 2, 3)
+thermtss.mat: thermal turbine governor analysis, state-space (fig. 4)
+dcexcss.mat: dc exciter analysis, state-space (figs. 7, 9, 10, 12)
+stexcss.mat: static exciter analysis, state-space (figs. 14, 15)
+
+16m1tdss.mat: 16-generator system with two tie-lines out of service
+16m1tdhgss.mat: 16-gen. system with two tie-lines out of service and hydro governors
+16m1tdtgss.mat: 16-gen. system with two tie-lines out of service and thermal governors
+
+% eof

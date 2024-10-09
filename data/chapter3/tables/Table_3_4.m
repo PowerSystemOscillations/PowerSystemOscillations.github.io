@@ -2,12 +2,16 @@
 % J. Chow, "Power System Oscillations: An Introduction to Oscillation
 % Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
 
-%% table 3.1
+%% table 3.4
 
 % emstsp.mat: state-space model for d2aem.m
 
 clear all; close all; clc;
 load('../mat/emstsp.mat');
+
+%-------------------------------------%
+% table 4
+
 tol = 1e-7;
 
 [V,D] = eig(a_mat);
@@ -44,17 +48,19 @@ fprintf('lambda = %0.4f+j%0.4f, lambda = %0.4f+j%0.4f\n\n', ...
         real(d(6)),imag(d(6)),real(d(8)),imag(d(8)));
 format short
 disp([Vn(:,6),Vn(:,8)])
-for ii = 1:length(Vn(:,8))
-    if abs(real(Vn(ii,8))) > 0
-        fprintf('%0.4f\n',real(Vn(ii,8)));
-    else
-        if imag(Vn(ii,8)) > 0
-            fprintf('j%0.4f\n',imag(Vn(ii,8)));
-        else
-            fprintf('-j%0.4f\n',abs(imag(Vn(ii,8))));
-        end
-    end
-end
+
+% for ii = 1:length(Vn(:,8))
+%     if abs(real(Vn(ii,8))) > 0
+%         fprintf('%0.4f\n',real(Vn(ii,8)));
+%     else
+%         if imag(Vn(ii,8)) > 0
+%             fprintf('j%0.4f\n',imag(Vn(ii,8)));
+%         else
+%             fprintf('-j%0.4f\n',abs(imag(Vn(ii,8))));
+%         end
+%     end
+% end
+
 fprintf('\n');
 
 % eof

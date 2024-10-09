@@ -8,6 +8,10 @@
 
 clear all; close all; clc;                    % reset workspace
 load('../mat/smibc.mat');                     % state-space model
+
+%-------------------------------------%
+% table 6
+
 tol = 1e-7;
 
 [~,D] = eig(a_mat);

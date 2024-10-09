@@ -8,6 +8,10 @@
 
 clear all; close all; clc;
 load('../mat/sbegstsp.mat');
+
+%-------------------------------------%
+% table 17
+
 tol = 1e-9;
 
 [V,D] = eig(a_mat);
@@ -42,7 +46,7 @@ end
 format short
 fprintf('\nTable 17. Right eigenvector for the unstable complex mode\n\n');
 fprintf('lambda = %0.4f + j%0.4f\n\n',real(d(16)),imag(d(16)));
-disp(Vn(:,16))
+% disp(Vn(:,16))  % cartesian form
 disp([abs(Vn(:,16)),round(angle(Vn(:,16))*180/pi,1)])
 
 % eof

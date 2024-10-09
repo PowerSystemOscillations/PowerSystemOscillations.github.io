@@ -8,6 +8,10 @@
 
 clear all; close all; clc;
 load('../mat/sbegstsp.mat');
+
+%-------------------------------------%
+% table 19
+
 tol = 1e-9;
 
 [V,D] = eig(a_mat);
@@ -43,10 +47,10 @@ for jj = 1:size(Pv,2)
 end
 
 fprintf('\nTable 19. Stable oscillatory modes\n\n');
-fprintf('Damping ratio, Frequency (Hz)\n\n');
+fprintf('Frequency (Hz), Damping ratio\n\n');
 format short
 mask = (real(d) < 0 & imag(d) > 0);
-disp([-cos(angle(d(mask))),imag(d(mask))/2/pi])
+disp([imag(d(mask))/2/pi,-cos(angle(d(mask)))])
 fprintf('Eigenvalue\n\n');
 disp(d(mask));
 

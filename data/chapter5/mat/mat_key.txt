@@ -1,0 +1,13 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+16m1tstsp.mat: 16-generator system with one tie-line, state-space (fig. 5)
+16m2ttran.mat: 16-generator system with two tie-lines, simulation (fig. 7, 8)
+16m3tstsp.mat: 16-generator system with three tie-lines, state-space (fig. 6)
+16memstsp.mat: 16-generator system data16em.m, state-space (figs. 2, 4)
+
+data4memstsp.mat: 4-generator plant model data4m_em.m, state-space (tables 1 and 2)
+data4magemstsp.mat: 4-generator aggregate plant model, state-space
+
+% eof

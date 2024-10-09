@@ -8,6 +8,10 @@
 
 clear all; close all; clc;
 load('../mat/sbegstsp.mat');
+
+%-------------------------------------%
+% table 15
+
 tol = 1e-7;
 
 [~,D] = eig(a_mat);
@@ -24,6 +28,6 @@ end
 
 fprintf('\nTable 15. Eigenvalues for system with detailed generator models and controls\n\n');
 format short
-disp(d)
-
+disp(d(1:end-4))
+disp(d(end-3:end))
 % eof

@@ -8,6 +8,10 @@
 
 clear all; close all; clc;
 load('../mat/sbgstsp.mat');
+
+%-------------------------------------%
+% table 4
+
 tol = 1e-7;
 
 [~,D] = eig(a_mat);
