@@ -2,7 +2,7 @@
 ## 2nd Ed.: An Introduction to Oscillation Analysis and Control
 
 <div style="display: flex; justify-content: left;" width="100%">
-    <img src="chapters/figures/fig_1p1.png" alt="Line flow transient" width=480px margin="auto" />
+    <img src="abstracts/figures/fig_1p1.png" alt="Line flow transient" width=480px margin="auto" />
 </div>
 
 ## Welcome
@@ -37,7 +37,7 @@ Felipe Wilches-Bernal, *formerly with Sandia National Laboratories*<br />
 Denis Osipov, *New York Power Authority*<br />
 Joe H. Chow, *Rensselaer Polytechnic Institute*
 
-Author bios may be [found here](chapters/bios.md).
+Author bios may be [found here](abstracts/bios.md).
 
 ## Recommended citation
 <a id="citation"></a>
@@ -96,26 +96,26 @@ Errors and typographical mistakes found in the book will be
 ## Book overview
 <a id="overview"></a>
 - Front Matter
-    - [About](chapters/about.md)
-    - [Preface](chapters/preface.md)
-    - [Chapter 1: Introduction](chapters/chapter1.md)
+    - [About](abstracts/about.md)
+    - [Preface](abstracts/preface.md)
+    - [Chapter 1: Introduction](abstracts/chapter1.md)
 - Part I: Modal Analysis
-    - [Chapter 2: The Nature of Power System Oscillations](chapters/chapter2.md)
-    - [Chapter 3: Modal Analysis of Power Systems](chapters/chapter3.md)
-    - [Chapter 4: Modal Analysis for Control](chapters/chapter4.md)
-    - [Chapter 5: Power System Structure and Oscillations](chapters/chapter5.md)
-    - [Chapter 6: Generator Controls](chapters/chapter6.md)
-    - [Chapter 7: Power System Stabilizers](chapters/chapter7.md)
-    - [Chapter 8: Power System Stabilizer Implementation--Problems and Solutions](chapters/chapter8.md)
+    - [Chapter 2: The Nature of Power System Oscillations](abstracts/chapter2.md)
+    - [Chapter 3: Modal Analysis of Power Systems](abstracts/chapter3.md)
+    - [Chapter 4: Modal Analysis for Control](abstracts/chapter4.md)
+    - [Chapter 5: Power System Structure and Oscillations](abstracts/chapter5.md)
+    - [Chapter 6: Generator Controls](abstracts/chapter6.md)
+    - [Chapter 7: Power System Stabilizers](abstracts/chapter7.md)
+    - [Chapter 8: Power System Stabilizer Implementation--Problems and Solutions](abstracts/chapter8.md)
 - Part II: Robust Control
-    - [Chapter 9: Robust Control](chapters/chapter9.md)
-    - [Chapter 10: Damping by Electronic Power System Devices](chapters/chapter10.md)
+    - [Chapter 9: Robust Control](abstracts/chapter9.md)
+    - [Chapter 10: Damping by Electronic Power System Devices](abstracts/chapter10.md)
 - Part III: Robust Control
-    - [Chapter 11: Synchrophasor Measurement Systems](chapters/chapter11.md)
-    - [Chapter 12: Measurement-Based Modal Analysis](chapters/chapter12.md)
-    - [Chapter 13: Wide-Area Control](chapters/chapter13.md)
-    - [Chapter 14: Forced Oscillations](chapters/chapter14.md)
-    - [Chapter 15: Inverter-Based Resources](chapters/chapter15.md)
+    - [Chapter 11: Synchrophasor Measurement Systems](abstracts/chapter11.md)
+    - [Chapter 12: Measurement-Based Modal Analysis](abstracts/chapter12.md)
+    - [Chapter 13: Wide-Area Control](abstracts/chapter13.md)
+    - [Chapter 14: Forced Oscillations](abstracts/chapter14.md)
+    - [Chapter 15: Inverter-Based Resources](abstracts/chapter15.md)
 
 ## Frequently asked questions
 <a id="faq"></a>
