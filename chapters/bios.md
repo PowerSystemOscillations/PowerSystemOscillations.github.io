@@ -1,5 +1,22 @@
 ## Author Bios
 
+**Graham J. Rogers**, graduated in Electrical Engineering, with first
+class honors from Southampton University, Southampton, U.K., in 1961.
+From 1961 to 1964, he was a Consultant Mathematician with
+A.E.I. (Rugby) Ltd., U.K. From 1964 until 1978, he was a Lecturer in
+electrical engineering at Southampton University. He immigrated to
+Canada in 1978 to work for Ontario Hydro, Toronto, ON, in the Power
+System Planning Division. After his retirement in 1993, he operated
+Cherry Tree Scientific Software, Colborne, ON. He was Associate
+Professor (part time) at McMaster University, Hamilton, ON, from 1982
+to 1996, Visiting Professor at I.I.T. Madrid in 1997, and later
+Adjunct Associate Professor at the University of Toronto. He was a
+Fellow of the IEEE, an active member of several IEEE Power
+Engineering Society Working Groups, and served as an Associate Editor
+of *IEEE Transactions on Control System Technology* from 1994
+to 1997. Graham authored the first edition of *Power System
+Oscillations*, published in 2000.
+
 **Ryan T. Elliott**, **Ph.D.**, received the M.S. and Ph.D. degrees
 in electrical engineering from the University of Washington, Seattle,
 in 2012 and 2020, respectively. From 2012 to 2015, he was a Research

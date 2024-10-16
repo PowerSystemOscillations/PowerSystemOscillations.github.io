@@ -27,13 +27,10 @@ H = zeros(1,length(w));
 Hc = zeros(1,length(w));
 for ii = 1:length(w)
     H(ii) = shg6.c(1,:)*((1j*w(ii)*eye(size(shg6.a)) - shg6.a)\shg6.b);
-    % Hc(ii) = shg4g.c(1,:)*((1j*w(ii)*eye(size(shg4g.a)) - shg4g.a)\shg4g.b);
 end
 
 plot(ax31,f,real(H));
 plot(ax32,f,imag(H));
-% plot(ax31,f,real(Hc),'.');
-% plot(ax32,f,imag(Hc),'.');
 ylabel(ax31,'Real');
 ylabel(ax32,'Imaginary');
 xlabel(ax32,'Frequency (Hz)');

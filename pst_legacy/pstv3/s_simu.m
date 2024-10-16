@@ -61,10 +61,8 @@ disp('non-linear simulation')
 if pathname == 0
    error(' you must select a valid data file')
 else
-   lfile =length(dfile);
-   % strip off .m and convert to lower case
-   dfile = lower(dfile(1:lfile-2));
-   eval(dfile);
+   full_dfile = fullfile(pathname, dfile);
+   run(full_dfile);
 end
 % check for valid dynamic data file
 if isempty(mac_con)
