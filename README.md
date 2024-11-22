@@ -1,4 +1,3 @@
-# Power System Oscillations
 ## 2nd Ed.: An Introduction to Oscillation Analysis and Control
 
 <div style="display: flex; justify-content: left;" width="100%">
