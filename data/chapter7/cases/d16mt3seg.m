@@ -9,7 +9,7 @@
 % reactive loads constant impedance
 
 % Bus data format
-% bus: 
+% bus:
 % col1 number
 % col2 voltage magnitude(pu)
 % col3 voltage angle(degree)
@@ -306,7 +306,7 @@ exc_con = [...
    0 16 0 200  0.05 0 0 5.  -5.  0    0 0 0 0 0 0 0 0 0 0];
 
 % power system stabilizers
-disp('power system stabilizers on all generators except generators 1,2 and 14')
+disp('power system stabilizers on all generators except generators 7 and 13--16')
 pss_con=[...
    1 1 100 10 0.08 0.01 0.08 0.01 .2 -0.05;
    1 2 100 10 0.08 0.01 0.08 0.01 .2 -0.05;
@@ -327,8 +327,8 @@ pss_con=[...
 % hydro governor model
 % tg_con matrix format
 %column	       data			unit
-%  1	turbine model number (=2)	
-%  2	machine number	
+%  1	turbine model number (=2)
+%  2	machine number
 %  3	speed set point   wf		pu
 %  4	permanent droop	Rp	pu
 %  5  transient droop   Rt pu
@@ -345,8 +345,8 @@ pss_con=[...
 
 % thermal turbine/governor model
 %column	       data			unit
-%  1	turbine model number (=1)	
-%  2	machine number	
+%  1	turbine model number (=1)
+%  2	machine number
 %  3	speed set point   wf		pu
 %  4	steady state gain 1/R		pu
 %  5	maximum power order  Tmax	pu on generator base
@@ -357,7 +357,7 @@ pss_con=[...
 % 10	reheater time constant    T5	sec
 
 tg_con = [...
-2  1  1  0.04  0.5  1.00   0.2 -0.1 0.05 4.0 0.2 6.0 2.0    
+2  1  1  0.04  0.5  1.00   0.2 -0.1 0.05 4.0 0.2 6.0 2.0
 1  2  1  25.0  1.0  0.1    0.5  0.0 1.25 5.0 0   0   0;
 1  3  1  25.0  1.0  0.1    0.5  0.0 1.25 5.0 0   0   0;
 1  4  1  25.0  1.0  0.1    0.5  0.0 1.25 5.0 0   0   0;
@@ -406,9 +406,9 @@ tg_con = [...
 sw_con = [...
    0     0    0    0    0    0    0.005;%sets intitial time step
    10.0  1    2    0    0    6    0.005; %no fault at bus 1, on line 1-2
-   10.05 0    0    0    0    0    0.005; %clear fault at bus 
+   10.05 0    0    0    0    0    0.005; %clear fault at bus
    10.15 0    0    0    0    0    0.005; %clear remote end
-   15.0  0    0    0    0    0    0.005; % increase time step 
+   15.0  0    0    0    0    0    0.005; % increase time step
    30.0  0    0    0    0    0    0]; % end simulation
 %
 %
@@ -491,4 +491,3 @@ load_con = [...
 %   32 51 100 1 -1 1 0.05;
 %   33 52 100 1 -1 .1 0.5];
 %lmod_con(:,3)=100*bus(lmod_con(:,2),6);
-

@@ -1,13 +1,24 @@
-%% table 3
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+%% table 10.3
+
+% dcpf1cont2.mat: robust feedback control specification based on the
+%                 unshaped system (state space)
 
 clear all; close all; clc;
-load('dcpf1cont.mat');
+load('../mat/dcpf1cont2.mat');
 
-s_c1 = ss(s_c1.a,s_c1.b,s_c1.c,s_c1.d);
-s_cr1 = ss(s_cr1.a,s_cr1.b,s_cr1.c,s_cr1.d);
+%-------------------------------------%
+% table 3
 
-[p,z] = pzmap(s_cr1);
+s_cr = ss(s_cr.a,s_cr.b,s_cr.c,s_cr.d);
 
+[p,z] = pzmap(s_cr);
+
+fprintf('\nTable 3. Poles and zeros of the robust control based on the unshaped system.\n\n');
+format longg
 disp([flipud(round(p,4)),flipud(round(z,4))])
 
 % eof

@@ -1,2 +1,8 @@
-Chapter 2 does not include any figures or tables based on proprietary
-data.
+The data for Fig. 11.7 are proprietary and not available in this
+repository.
+
+Fig. 11.9 is reproduced from [14] with permission.
+
+[14] Sauer, P.W., Pai, M.A., Chow, J.H.: Power system dynamics and
+stability with synchrophasor measurement and Power System Toolbox,
+second edition. Wiley-IEEE Press, New Jersey (2018)

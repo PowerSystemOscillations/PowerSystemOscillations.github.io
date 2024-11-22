@@ -4,7 +4,8 @@
 
 %% fig 10.3
 
-% d2adcemss.mat: 2-area system with dc exciters and governors, base system
+% d2adcemss.mat: 2-area system with dc exciters and svc control,
+%                d2adcemss.m (state space)
 
 clear all; close all; clc;
 load('../mat/d2adcemss.mat');

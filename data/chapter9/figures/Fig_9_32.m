@@ -4,8 +4,8 @@
 
 %% fig 9.32
 
-% d2asbegp.m: 2-area syst. with detailed gen. models and controls, post-fault
-% sbegpstsp.mat: state-space model based on d2asbegp.m
+% sbegpstsp.mat: 2-area syst. with detailed gen. models, exciters,
+%                turbine/governors, and PSSs, d2asbegp.m (state space)
 
 clear all; close all; clc;
 load('../mat/sbegpstsp.mat');                 % load data file

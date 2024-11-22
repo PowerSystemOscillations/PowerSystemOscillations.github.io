@@ -4,12 +4,12 @@
 
 %% fig 10.17
 
-% d2adcem3.mat: 2-area system, one line each 3--101, 13--101
-% control.mat: state-space control specification
+% d2adcem3.mat: 2-area system with dc exciters and svc control,
+%               one line each 3--101/13--101, d2adcem3.m (state space)
 
 clear all; close all; clc;
 load('../mat/d2adcem3.mat');
-load('../mat/control.mat');
+load('../mat/control.mat');                   % control specification
 
 %-------------------------------------%
 % fig 17
@@ -52,7 +52,7 @@ axis(ax172,[-3,1,0,8]);
 
 ylabel(ax171,'Imag. (rad/s)');
 ylabel(ax172,'Imag. (rad/s)');
-xlabel(ax172,'Real');
+xlabel(ax172,'Real (1/s)');
 
 H17 = {'mc1','ac1','rec1','imc1','mc2','ac2','rec2','imc2'};
 M17 = [abs(eig_c1); (180/pi)*angle(eig_c1); real(eig_c1); imag(eig_c1); ...

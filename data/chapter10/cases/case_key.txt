@@ -1,0 +1,16 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+d2adcem.m: 2-area system with dc exciters, no svc
+d2adcemss.m: 2-area system with dc exciters and svc control
+d2adcem1.m: 2-area system with dc exciters and svc control, one line 3--101
+d2adcem2.m: 2-area system with dc exciters and svc control, one line 13--101
+d2adcem3.m: 2-area system with dc exciters and svc control, one line 3--101/13--101
+
+d2atcsc.m: 2-area test case with dc exciters and tcsc control
+
+d2aphvdc.m: 2-area test case with hvdc link
+d2aphvdc.m: 2-area test case with hvdc link, no supplemental control
+
+% eof

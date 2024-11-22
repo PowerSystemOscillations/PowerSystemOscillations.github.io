@@ -4,12 +4,12 @@
 
 %% fig 10.14
 
-% d2adcem.mat: 2-area system with dc exciters and governors, base system
-% control.mat: state-space control specification
+% d2adcem.mat: 2-area system with dc exciters, no svc,
+%              d2adcem.m (state space)
 
 clear all; close all; clc;
 load('../mat/d2adcem.mat');
-load('../mat/control.mat');
+load('../mat/control.mat');                   % control specification
 
 %-------------------------------------%
 % fig 14
@@ -58,7 +58,7 @@ xlabel(ax142,'Frequency (Hz)');
 ylabel(ax141,'Gain (dB)');
 ylabel(ax142,'Phase (deg)');
 
-% export data to file
+% exporting data
 
 H14 = {'f','gc1','pc1','gc2','pc2'};
 M14 = [w_s/2/pi; 20*log10(squeeze(mag_sv3red_cr1)).'; squeeze(wrapTo180(ph_sv3red_cr1)).'; ...

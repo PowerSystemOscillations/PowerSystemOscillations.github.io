@@ -4,7 +4,8 @@
 
 %% fig 10.12
 
-% d2adcem.mat: 2-area system with dc exciters and governors, base system
+% d2adcem.mat: 2-area system with dc exciters, no svc,
+%              d2adcem.m (state space)
 
 clear all; close all; clc;
 load('../mat/d2adcem.mat');

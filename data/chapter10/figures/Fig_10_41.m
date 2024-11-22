@@ -1,36 +1,80 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
 %% fig 10.41
 
-clear all; close all; clc;
-load('d2aphvdcss.mat');
+% d2aphvdcss.mat: 2-area test case with hvdc, d2aphvdc.m (state space)
 
-fig41_name = './dat/ch10_fig41.dat';
+clear all; close all; clc;
+load('../mat/d2aphvdcss.mat');
+
+%-------------------------------------%
+% fig 41
+
+fig41_name = './csv/ch10_fig41.csv';
 
 fig41 = figure;
 ax411 = subplot(1,1,1,'parent',fig41);
 hold(ax411,'on');
 grid(ax411,'on');
 
-sys_dcr = ss(a_mat,b_dcr(:,1),c_ang(3,:)-c_ang(9,:),d_angdcr(3,:)-d_angdcr(9,:));  % bus 3
-rate = tf([1 0],(2*pi*60)*[0.01 1]);
-sys_dcr_htf = sys_dcr*rate;
+sys_dcr = ss(a_mat,b_dcr(:,1),(c_ang(3,:)-c_ang(9,:)),(d_angdcr(3,:)-d_angdcr(9,:)));
+rate = (2*pi*60)*tf([1 0],(2*pi*60)*[0.01 1]);
 
-[p_dcr,z_dcr] = pzmap(sys_dcr_htf);
+sys_dcr_rate = sys_dcr*rate;
 
-% padding for size consistency
-p_dcr = p_dcr.';
-z_dcr = z_dcr.';
+K = [0:0.1:10,1e6];
+eig_track = zeros(size(sys_dcr_rate.a,1),length(K));
+for ii = 1:length(K)
+    eig_track(:,ii) = eig(sys_dcr_rate.a - K(ii)*sys_dcr_rate.b*sys_dcr_rate.c);
+    if ii < length(K)
+        plot(ax411,real(eig_track(:,ii)),imag(eig_track(:,ii)),...
+             'bd','markerFaceColor','b','markerSize',3.5);
+    end
+end
 
-plot(ax411,[0,-5],[0,5*tan(acos(0.05))],'k');
-%plot(ax411,real(eig_track),imag(eig_track),'bd','markerFaceColor','b','markerSize',3.5);
-plot(ax411,real(p_dcr),imag(p_dcr),'k+','lineWidth',0.75);
-plot(ax411,real(z_dcr),imag(z_dcr),'ko','lineWidth',0.75);
+for ii = 1:size(eig_track,2)
+    if (ii == length(K))
+        plot(ax411,real(eig_track(:,ii)),imag(eig_track(:,ii)),...
+             'ro');
+    elseif (ii == 11)
+        plot(ax411,real(eig_track(:,ii)),imag(eig_track(:,ii)),...
+             'rs','markerSize',8.5);
+    end
+end
+
+plot(ax411,real(eig_track(:,1)),imag(eig_track(:,1)),'r+','lineWidth',0.75);
+plot(ax411,[-5,0],[5*tan(acos(0.05)),0],'k-');
+
 axis(ax411,[-20,5,0,10]);
-
+xlabel(ax411,'Real (1/s)');
 ylabel(ax411,'Imaginary (rad/s)');
-xlabel(ax411,'Real');
 
-H41 = {'k','rep','imp','rez','imz'};
-M41 = [1:1:length(p_dcr); real(p_dcr); imag(p_dcr); real(z_dcr); imag(z_dcr)];
+% display left eigenvectors
+
+[V,d] = eig(sys_dcr_rate.a,'vector');
+W = pinv(V).';                                % left eigenvectors
+
+fence = 1:1:length(d);
+mask = (real(d) > -30) & (imag(d) > 1.5);
+fence = fence(mask);
+
+for ii = 1:length(fence)
+    % residue
+    Ri(ii) = sys_dcr_rate.c*V(:,fence(ii))*W(:,fence(ii)).'*sys_dcr_rate.b;
+end
+
+ord = [2,3,4,5,1];                            % display order
+disp([d(fence(ord)),Ri(ord).']);
+
+% exporting data
+
+rl_vec = reshape(eig_track,[1,numel(eig_track)]);
+
+H41 = {'k','mag','ang','re','im'};
+M41 = [1:length(rl_vec); abs(rl_vec); (180/pi)*angle(rl_vec);
+      real(rl_vec); imag(rl_vec)];
 
 fid41 = fopen(fig41_name,'w');
 fprintf(fid41,'%s,%s,%s,%s,%s\n',H41{:});

@@ -1,1 +1,30 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
 
+d16mt1segibss.mat: 16-machine sys., 1 tie-line, static exc., all except G16 are infinite buses
+                   state-space model for d16mt1segib.m (figs. 3, 4, 6, 7, 8, 9)
+                   (tables 1, 2, 3, 4)
+
+d16mgdcetgibss.mat: 16-machine sys., dc exciters, all except G16 are infinite buses
+                    state-space model for d16mgdcetgib.m (figs. 10, 11, 12, 13), (table 5)
+
+16mt3setgss.mat: 16-machine sys., 3 tie-lines, static exc., thermal turbine/gov. on all units
+                 state-space model for d16mt3setg.m (figs. 14, 15, 16, 21, 22), (table 6)
+
+d16mt3setgp11ss.mat: 16-machine sys., 3 tie-lines, static exc., pss on G3--6, G8--11
+                     state-space model for d16mt3setgp11ss.m (figs. 17, 18, 19)
+
+d16mt3setgp16ss.mat: 16-machine sys., 3 tie-lines, static exc., pss on G3--16
+                     state-space model for d16mt3setgp16ss.m (fig. 20, 23, 24), (table 8)
+
+d16mt3setgp1ss.mat: 16-machine sys., 3 tie-lines, static exc., pss on all units except G2
+                     state-space model for d16mt3setgp11ss.m (fig. 25), (table 9)
+
+16mt1setgp.mat: 16-machine sys., 1 tie-line, static exc., pss on all units
+                state-space model for d16mt1setgp.m (fig. 26)
+
+16m2tseptran.mat: 16-machine sys., 2 tie-lines, static exc., pss on all units
+                  time-domain simulation of d16mt2setgp.m (fig. 27)
+
+% eof

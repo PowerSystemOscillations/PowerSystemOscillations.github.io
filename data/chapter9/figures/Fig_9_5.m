@@ -4,7 +4,7 @@
 
 %% fig 9.5
 
-% sbstsp.mat: 2-area syst. with detailed gen. models d2asb.m, state-space
+% sbstsp.mat: 2-area syst. with detailed gen. models d2asb.m (state space)
 
 clear all; close all; clc;                  % reset workspace
 load('../mat/sbstsp.mat');                  % load data file

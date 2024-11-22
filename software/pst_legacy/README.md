@@ -6,7 +6,7 @@ interested readers may reproduce Graham's original analysis with the
 same software that he used in the book's development. It has some
 known bugs, so we *do not* recommend that researchers use it for any
 new projects. Please see the
-[website homepage](powersystemoscillations.github.io) for links to
-up-to-date versions of PST and PSTess.
+[website homepage](https://powersystemoscillations.github.io) for
+links to up-to-date versions of PST and PSTess.
 
 [comment]: <> (eof)

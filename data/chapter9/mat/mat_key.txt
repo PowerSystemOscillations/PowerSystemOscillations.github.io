@@ -1,0 +1,24 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+sbstsp.mat: 2-area syst. with detailed gen. models d2asb.m (state space)
+            (figs. 4, 5, 12, 13, 14, 16)
+
+sbegstsp.mat: 2-area syst. with detailed gen. models, exciters,
+              and turbine/governors, d2asbeg.m (state space)
+              (figs. 6, 7)
+
+sbegpstsp.mat: 2-area syst. with detailed gen. models, exciters,
+               turbine/governors, and PSSs, d2asbegp.m (state space)
+               (figs. 8, 9, 21, 22, 29, 30, 31, 32, 34, 35)
+
+sbestsp.mat: 2-area syst. with detailed gen. models and exciters,
+             d2asbe.m (state space)
+             (figs. 17, 18)
+
+sbepstsp.mat: 2-area syst. with detailed gen. models, exciters, and PSSs,
+              d2asbep.m (state space)
+              (figs. 19, 20)
+
+% eof

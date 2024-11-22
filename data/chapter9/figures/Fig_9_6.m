@@ -4,7 +4,8 @@
 
 %% fig 9.6
 
-% sbegstsp.mat: 2-area system with exciters and governors d2asbeg.m, state-space
+% sbegstsp.mat: 2-area syst. with detailed gen. models, exciters,
+%               and turbine/governors, d2asbeg.m (state space)
 
 clear all; close all; clc;                    % reset workspace
 load('../mat/sbegstsp.mat');                  % load data file

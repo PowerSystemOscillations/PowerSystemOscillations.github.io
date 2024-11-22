@@ -4,8 +4,8 @@
 
 %% fig 10.23
 
-% d2adcem2rc1.mat: 2-area test case, one line 13--101, robust control 1
-% d2adcem2rc2.mat: 2-area test case, one line 13--101, robust control 2
+% d2adcem2rc1.mat: 2-area system with dc exciters, one line 13--101,
+%                  robust control 1 (state space)
 
 clear all; close all; clc;
 load('../mat/d2adcem2rc1.mat');
@@ -36,6 +36,9 @@ axis(ax231,[0,5,v(3),7]);
 plot(ax232,t,svc_dsig);
 
 % robust control 2
+
+% d2adcem2rc2.mat: 2-area system with dc exciters, one line 13--101,
+%                  robust control 2 (state space)
 
 load('../mat/d2adcem2rc2.mat');
 

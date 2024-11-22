@@ -4,7 +4,8 @@
 
 %% fig 10.20
 
-% d2adcem2rc1.mat: 2-area test case, one line 13--101, robust control 1
+% d2adcem2rc1.mat: 2-area system with dc exciters, one line 13--101,
+%                  robust control 1 (state space)
 
 clear all; close all; clc;
 load('../mat/d2adcem2rc1.mat');

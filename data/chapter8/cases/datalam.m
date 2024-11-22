@@ -1,6 +1,6 @@
 % The multiple machine infinite bus system for power system
 % stabilizer design
-% datamgen.m
+% datalam.m
 
 % bus data format
 % bus:

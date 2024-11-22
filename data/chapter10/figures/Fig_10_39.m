@@ -1,33 +1,49 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
 %% fig 10.39
 
+% d2aphvdcss.mat: 2-area test case with hvdc, d2aphvdc.m (state space)
+
 clear all; close all; clc;
-load('d2aphvdcss.mat');
+load('../mat/d2aphvdcss.mat');
 
-fig39_name = './dat/ch10_fig39.dat';
+%-------------------------------------%
+% fig 39
 
-W_sv = logspace(-2,log10(100*2*pi),256);
-G_m = ss(a_mat,0.1*b_lmod,20*c_v([3 8],:),zeros(2,2));
-SV_m = sigma(G_m,W_sv);
+fig39_name = './csv/ch10_fig39.csv';
 
-% l_mod to tie bus V_m and bus frequency
-G_a = ss(a_mat,0.1*b_lmod,c_ang([3 8],:),zeros(2,2));
+fig39 = figure;
+ax391 = subplot(1,1,1,'parent',fig39);
+hold(ax391,'on');
+grid(ax391,'on');
 
-% add rate filter to obtain c_f
+sys_dcr = ss(a_mat,b_dcr(:,1),c_ang(3,:)-c_ang(9,:),d_angdcr(3,:)-d_angdcr(9,:));
 rate = tf([1 0],(2*pi*60)*[0.01 1]);
-G_f = 1000*[rate 0; 0 rate]*G_a;
-SV_f = sigma(G_f,W_sv);
+sys_dcr_htf = sys_dcr*rate;
 
-figure, loglog(W_sv/(2*pi),SV_m(1,:), W_sv/(2*pi),SV_f(1,:));
-legend('Bus voltage','Bus frequency','location','best');
-axis([0.01 100 1e-3 1e0]);
-xlabel('Frequency (Hz)');
+[p_dcr,z_dcr] = pzmap(sys_dcr_htf);
 
-H39 = {'f_sv','SV_m','SV_f'};
-M39 = [W_sv/2/pi; SV_m(1,:); SV_f(1,:)];
+% padding for size consistency
+p_dcr = p_dcr.';
+z_dcr = z_dcr.';
+
+plot(ax391,[0,-5],[0,5*tan(acos(0.05))],'k');
+%plot(ax391,real(eig_track),imag(eig_track),'bd','markerFaceColor','b','markerSize',3.5);
+plot(ax391,real(p_dcr),imag(p_dcr),'r+','lineWidth',0.75);
+plot(ax391,real(z_dcr),imag(z_dcr),'bo','lineWidth',0.75);
+axis(ax391,[-20,5,0,10]);
+
+ylabel(ax391,'Imaginary (rad/s)');
+xlabel(ax391,'Real (1/s)');
+
+H39 = {'k','rep','imp','rez','imz'};
+M39 = [1:1:length(p_dcr); real(p_dcr); imag(p_dcr); real(z_dcr); imag(z_dcr)];
 
 fid39 = fopen(fig39_name,'w');
-fprintf(fid39,'%s,%s,%s\n',H39{:});  % must match number of columns
-fprintf(fid39,'%6e,%6e,%6e\n',M39);  % must match number of columns
+fprintf(fid39,'%s,%s,%s,%s,%s\n',H39{:});
+fprintf(fid39,'%6e,%6e,%6e,%6e,%6e\n',M39);
 fclose(fid39);
 
 % eof

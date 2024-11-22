@@ -4,7 +4,7 @@
 
 %% fig 10.26
 
-% d2atcscs.mat: 2-area test case with tcsc
+% d2atcscs.mat: 2-area test case dc exciters and tcsc control
 
 clear all; close all; clc;
 load('../mat/d2atcscs.mat');

@@ -4,7 +4,7 @@
 
 %% fig 8.3
 
-% datalaag_smib_tor.mat:
+% datalaag_smib_tor.mat: single-machine infinite bus model with torsional dynamics
 
 clear all; close all; clc;
 load('../mat/datalaag_smib_tor.mat');

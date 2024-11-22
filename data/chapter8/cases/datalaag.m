@@ -1,6 +1,6 @@
 % The single machine infinite bus system for power system
 % stabilizer design
-% datasmse.m
+% datalaag.m
 
 % bus data format
 % bus:

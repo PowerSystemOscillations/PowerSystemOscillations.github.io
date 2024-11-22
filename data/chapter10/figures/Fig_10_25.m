@@ -4,7 +4,7 @@
 
 %% fig 10.25
 
-% d2atcscs.mat: 2-area test case with tcsc
+% d2atcscs.mat: 2-area test case dc exciters and tcsc control
 
 clear all; close all; clc;
 load('../mat/d2atcscs.mat');
@@ -26,9 +26,10 @@ plot(ax251,real(eig_track(:,1)),imag(eig_track(:,1)),'b+','lineWidth',1.5);
 axis(ax251,[-3,1,0,10]);
 
 ylabel(ax251,'Imaginary (rad/s)');
-xlabel(ax251,'Real');
+xlabel(ax251,'Real (1/s)');
 
-% exporting data file
+% exporting data
+
 rl_vec = reshape(eig_track,[1,numel(eig_track)]);
 
 H25 = {'k','mag','ang','re','im'};

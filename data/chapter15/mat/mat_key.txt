@@ -1,0 +1,53 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+d2asbegp_tg_pert_gfma_p4pu_bus91.mat: governor reference pulse with gfma control,
+                                      d2asbegp_gfma_p4pu_pert.m, nonlinear simulation
+                                      (fig. 8)
+
+d2asbegp_tg_pert_reec_p4pu_bus91.mat: governor reference pulse with reec control,
+                                      d2asbegp_reec_p4pu_pert.m, nonlinear simulation
+                                      (fig. 8)
+
+d2asbegp_exc_pert_gfma_p4pu_bus91.mat: avr reference pulse with gfma control,
+                                       d2asbegp_gfma_p4pu_pert.m, nonlinear simulation
+                                       (fig. 9)
+
+d2asbegp_exc_pert_reec_p4pu_bus91.mat: avr reference pulse with reec control,
+                                       d2asbegp_gfma_p4pu_pert.m, nonlinear simulation
+                                       (figs. 9, 10)
+
+d2asbegp_sweep_base_p4pu.mat: eigenvalues of the base case (no IBRs),
+                              d2asbegp_base_p4pu.m, state space
+                              (figs. 11, 14), (table 6)
+
+d2asbegp_sweep_gfma_p4pu_*ibr.mat: eigenvalues as the number of gfma's increases,
+                                   d2asbegp_gfma_p4pu_*ibr.m, state space
+                                   (fig. 11)
+
+d2asbegp_sweep_reec_p4pu_*ibr.mat: eigenvalues as the number of reec's increases,
+                                   d2asbegp_reec_p4pu_*ibr.m, state space
+                                   (fig. 11)
+
+d2asbegp_step_base_p4pu.mat: system response to a step-change in load,
+                             d2asbegp_base_p4pu.m, nonlinear simulation
+                             (figs. 12, 13)
+
+d2asbegp_step_reec_p4pu_*ibr.mat: step response as the number of reec's increases,
+                                  d2asbegp_reec_p4pu_*ibr.m, nonlinear simulation
+                                  (fig. 12)
+
+d2asbegp_step_gfma_p4pu_*ibr.mat: step response as the number of gfma's increases,
+                                  d2asbegp_gfma_p4pu_*ibr.m, nonlinear simulation
+                                  (fig. 13)
+
+d2asbegp_sweep_gfma_p4pu_bus91.mat: root locus as gfma capacity increases at bus 91,
+                                    d2asbegp_gfma_p4pu.m, state space
+                                    (fig. 14), (table 6)
+
+d2asbegp_sweep_reec_p4pu_bus91.mat: root locus as reec capacity increases at bus 91,
+                                    d2asbegp_reec_p4pu.m, state space
+                                    (fig. 14), (table 6)
+
+% eof

@@ -4,11 +4,10 @@
 
 %% fig 9.17
 
-% d2asbe.m: 2-area syst. with detailed generator models and exciters
-% sbestsp.mat: state-space model based on d2asbe.m
+% sbestsp.mat: 2-area syst. with detailed gen. models and exciters,
+%              d2asbe.m (state space)
 
 clear all; close all; clc;
-run('../cases/d2asbe.m');
 load('../mat/sbestsp.mat');                   % load data file
 
 %-------------------------------------%

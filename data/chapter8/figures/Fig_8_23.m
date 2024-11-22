@@ -12,9 +12,6 @@ load('../mat/datalam_stsp.mat');
 %-------------------------------------%
 % fig 23
 
-clear all; close all; clc;
-load('../mat/datalam_stsp.mat');
-
 P = eye(32);
 P(9:16,1:8) = eye(8);
 P(17:24,1:8) = eye(8);
@@ -84,7 +81,7 @@ plot(ax23,real(eig_track(:,end)),imag(eig_track(:,end)),'ro','markerSize',6.5);
 axis(ax23,[-10,1.0,0,20]);
 
 ylabel(ax23,'Imaginary (rad/s)');
-xlabel(ax23,'Real');
+xlabel(ax23,'Real (1/s)');
 
 % exporting data file
 rl_vec = reshape(eig_track,[1,numel(eig_track)]);

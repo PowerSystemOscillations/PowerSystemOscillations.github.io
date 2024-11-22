@@ -4,12 +4,12 @@
 
 %% fig 10.15
 
-% d2adcem.mat: 2-area system with dc exciters and governors, base system
-% control.mat: state-space control specification
+% d2adcem.mat: 2-area system with dc exciters, no svc,
+%              d2adcem.m (state space)
 
 clear all; close all; clc;
 load('../mat/d2adcem.mat');
-load('../mat/control.mat');
+load('../mat/control.mat');                   % control specification
 
 %-------------------------------------%
 % fig 15
@@ -52,7 +52,7 @@ plot(ax151,real(eig_track(:,1)),imag(eig_track(:,1)),'r+','lineWidth',0.75);
 plot(ax151,[-5,0],[5*tan(acos(0.05)),0],'k-');
 
 axis(ax151,[-3,1,0,8]);
-xlabel(ax151,'Real');
+xlabel(ax151,'Real (1/s)');
 ylabel(ax151,'Imaginary (rad/s)');
 
 rl_vec = reshape(eig_track,[1,numel(eig_track)]);

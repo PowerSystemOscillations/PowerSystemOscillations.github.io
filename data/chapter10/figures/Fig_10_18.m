@@ -4,12 +4,12 @@
 
 %% fig 10.18
 
-% d2adcem1ss.mat: 2-area test case, one line 3--101, svc control
-% control.mat: state-space control specification
+% d2adcem1ss.mat: 2-area system with dc exciters, one line 3--101,
+%                 svc control (state space)
 
 clear all; close all; clc;
 load('../mat/d2adcem1ss.mat');
-load('../mat/control.mat');
+load('../mat/control.mat');                   % control specification
 
 %-------------------------------------%
 % fig 18

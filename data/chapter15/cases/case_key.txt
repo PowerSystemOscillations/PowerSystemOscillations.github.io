@@ -1,0 +1,27 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+d2asbegp_base_0pu.m: 2-area system with zero power transfer, no IBRs
+d2asbegp_base_n4pu.m: 2-area system where area 1 imports 400 MW, no IBRs
+d2asbegp_base_p4pu.m: 2-area system where area 1 exports 400 MW, no IBRs
+
+d2asbegp_gfma_0pu.m: 2-area system with zero power transfer, gfma controls
+d2asbegp_gfma_n4pu.m: 2-area system where area 1 imports 400 MW, gfma controls
+d2asbegp_gfma_p4pu.m: 2-area system where area 1 exports 400 MW, gfma controls
+d2asbegp_gfma_p4pu_1ibr.m: 2-area system where area 1 exports 400 MW, 1 gfma
+d2asbegp_gfma_p4pu_2ibr.m: 2-area system where area 1 exports 400 MW, 2 gfma
+d2asbegp_gfma_p4pu_3ibr.m: 2-area system where area 1 exports 400 MW, 3 gfma
+d2asbegp_gfma_p4pu_4ibr.m: 2-area system where area 1 exports 400 MW, 4 gfma
+d2asbegp_gfma_p4pu_pert.m: 2-area system where area 1 exports 400 MW, 1 gfma at bus 91
+
+d2asbegp_reec_0pu.m: 2-area system with zero power transfer, reec controls
+d2asbegp_reec_n4pu.m: 2-area system where area 1 imports 400 MW, reec controls
+d2asbegp_reec_p4pu.m: 2-area system where area 1 exports 400 MW, reec controls
+d2asbegp_reec_p4pu_1ibr.m: 2-area system where area 1 exports 400 MW, 1 reec
+d2asbegp_reec_p4pu_2ibr.m: 2-area system where area 1 exports 400 MW, 2 reec
+d2asbegp_reec_p4pu_3ibr.m: 2-area system where area 1 exports 400 MW, 3 reec
+d2asbegp_reec_p4pu_4ibr.m: 2-area system where area 1 exports 400 MW, 4 reec
+d2asbegp_reec_p4pu_pert.m: 2-area system where area 1 exports 400 MW, 1 reec at bus 91
+
+% eof

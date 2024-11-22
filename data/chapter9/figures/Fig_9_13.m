@@ -4,10 +4,10 @@
 
 %% fig 9.13
 
-% d2asb.m: 2-area system with subtransient generator models
-% sbstsp.mat: 2-area syst. with detailed gen. models d2asb.m, state-space
+% sbstsp.mat: 2-area syst. with detailed gen. models d2asb.m (state space)
 
-run('../cases/d2asb.m');                      % reset workspace
+clear all; close all; clc;                    % reset workspace
+run('../cases/d2asb.m');
 load('../mat/sbstsp.mat');                    % load data file
 
 %-------------------------------------%

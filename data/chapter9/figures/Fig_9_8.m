@@ -4,7 +4,8 @@
 
 %% fig 9.8
 
-% sbegpstsp.mat: 2-area system with exciters and governors post-fault, state-space
+% sbegpstsp.mat: 2-area syst. with detailed gen. models, exciters,
+%                turbine/governors, and PSSs, d2asbegp.m (state space)
 
 clear all; close all; clc;                    % reset workspace
 load('../mat/sbegpstsp.mat');                 % load data file

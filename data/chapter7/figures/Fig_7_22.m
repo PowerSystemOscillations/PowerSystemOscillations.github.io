@@ -2,7 +2,7 @@
 % J. Chow, "Power System Oscillations: An Introduction to Oscillation
 % Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
 
-%% fig 7.21
+%% fig 7.22
 
 % 16mt3setgss.mat: 16-machine system, 3 tie-lines, static exciters
 

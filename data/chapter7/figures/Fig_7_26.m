@@ -2,7 +2,7 @@
 % J. Chow, "Power System Oscillations: An Introduction to Oscillation
 % Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
 
-%% fig 7.24
+%% fig 7.26
 
 % 16mt1setgp.mat: 16-machine system, PSSs on all generators
 

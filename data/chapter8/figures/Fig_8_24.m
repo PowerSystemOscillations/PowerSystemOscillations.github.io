@@ -81,7 +81,7 @@ plot(ax24,real(eig_track(:,end)),imag(eig_track(:,end)),'ro','markerSize',6.5);
 axis(ax24,[-5,1.0,0,20]);
 
 ylabel(ax24,'Imaginary (rad/s)');
-xlabel(ax24,'Real');
+xlabel(ax24,'Real (1/s)');
 
 % exporting data file
 rl_vec = reshape(eig_track,[1,numel(eig_track)]);

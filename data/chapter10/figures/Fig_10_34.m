@@ -1,62 +1,46 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
 %% fig 10.34
 
-clear all; close all; clc;
-load('d2atcscs.mat');
-load('control6.mat');
+% d2atcsct.mat: 2-area test case with dc exciters and tcsc control,
+%               nonlinear simulation
 
-fig34_name = './dat/ch10_fig34.dat';
+clear all; close all; clc;
+load('../mat/d2atcsct.mat');
+
+%-------------------------------------%
+% fig 34
+
+Fs = 30;                                      % sample rate
+tt = t(1):1/Fs:t(end);                        % time vector
+
+fig34_name = './csv/ch10_fig34.csv';
 
 fig34 = figure;
-ax341 = subplot(2,1,1,'parent',fig34);
-ax342 = subplot(2,1,2,'parent',fig34);
-%
+ax341 = subplot(1,1,1,'parent',fig34);
 hold(ax341,'on');
-hold(ax342,'on');
-%
-set(ax341,'xscale','log');
-set(ax342,'xscale','log');
-%set(ax341,'yscale','log');
 
-sys_tcsc = ss(a_mat,b_tcsc(:,1),c_v(12,:),0);
-[sys_tcsc_red,~] = balred(sys_tcsc,8);  % remove negligible states
+plot(ax341, t, abs(bus_v([3,8],:)));
 
-cn = 100*conv([1,0],conv([0.1,1],[0.1,1]));
-cd = conv([1,1],conv([0.05,1],conv([0.5,1],[0.5,1])));
-sys_c1 = tf(cn,cd);
+v = axis(ax341);
+axis(ax341,[0,20,v(3),v(4)]);
+legend(ax341,{'bus 3','bus 13'},'location','southeast');
 
-sc3 = ss(sc3.a,sc3.b,sc3.c,sc3.d);
-scr = ss(scr.a,scr.b,scr.c,scr.d);
-sys_rc1 = 100*sc3*scr;
+xlabel(ax341,'Time (s)');
+ylabel(ax341,'Voltage magnitude (pu)');
 
-sys_tcsc_resid = sys_c1*sys_tcsc_red;
-sys_tcsc_robust = sys_rc1*sys_tcsc_red;
+% exporting data
 
-% sys_sv3red_c1 = sys_c1*sys_sv3red;
-% sys_sv3red_c2 = sys_c2*sys_sv3red;
+bus_vm_dec = interp1(t,abs(bus_v).',tt).';    % downsampling
 
-w_s = [linspace(0.01,2,128),linspace(2.1,100,128)]*2*pi;
-[mag_resid,ph_resid] = bode(sys_tcsc_resid,w_s);
-[mag_robust,ph_robust] = bode(sys_tcsc_robust,w_s);
-
-plot(ax341,w_s/2/pi,20*log10(squeeze(mag_resid)), ...
-           w_s/2/pi,20*log10(squeeze(mag_robust)));
-plot(ax342,w_s/2/pi,squeeze(wrapTo180(ph_resid)), ...
-           w_s/2/pi,squeeze(wrapTo180(ph_robust)));
-
-xlabel(ax342,'Frequency (Hz)');
-ylabel(ax341,'Gain (dB)');
-ylabel(ax342,'Phase (deg)');
-
-legend(ax341,{'residue control','robust control'},'location','northeast');
-legend(ax342,{'residue control','robust control'},'location','southeast');
-
-H34 = {'f','gc1','pc1','gc2','pc2'};
-M34 = [w_s/2/pi; 20*log10(squeeze(mag_resid)).'; squeeze(wrapTo180(ph_resid)).'; ...
-                 20*log10(squeeze(mag_robust)).'; squeeze(wrapTo180(ph_robust)).'];
+H34 = {'t','v3','v13'};
+M34 = [tt; bus_vm_dec(3,:); bus_vm_dec(8,:)];
 
 fid34 = fopen(fig34_name,'w');
-fprintf(fid34,'%s,%s,%s,%s,%s\n',H34{:});    % must match number of columns
-fprintf(fid34,'%6e,%6e,%6e,%6e,%6e\n',M34);  % must match number of columns
+fprintf(fid34,'%s,%s,%s\n',H34{:});
+fprintf(fid34,'%6e,%6e,%6e\n',M34);
 fclose(fid34);
 
 % eof

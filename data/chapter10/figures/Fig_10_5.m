@@ -4,9 +4,8 @@
 
 %% fig 10.5
 
-% d2adcem1ss_no_svc.mat: 2-area test case post-fault condition 1
-% d2adcem2ss_no_svc.mat: 2-area test case post-fault condition 2
-% d2adcem3ss_no_svc.mat: 2-area test case post-fault condition 3
+% d2adcem1ss_no_svc.mat: 2-area system with dc exciters, no svc,
+%                        one line 3--101 (state space)
 
 clear all; close all; clc;
 load('../mat/d2adcem1ss_no_svc.mat');
@@ -26,10 +25,16 @@ eig_track1 = eig(a_mat);
 plot(ax51,[0,-5],[0,5*tan(acos(0.05))],'k');
 h1 = plot(ax51,real(eig_track1(:,1)),imag(eig_track1(:,1)),'b+','lineWidth',0.75);
 
+% d2adcem2ss_no_svc.mat: 2-area system with dc exciters, no svc,
+%                        one line 13--101 (state space)
+
 load('../mat/d2adcem2ss_no_svc.mat');
 
 eig_track2 = eig(a_mat);
 h2 = plot(ax51,real(eig_track2(:,1)),imag(eig_track2(:,1)),'rx','lineWidth',0.75);
+
+% d2adcem3ss_no_svc.mat: 2-area system with dc exciters, no svc,
+%                        one line each 3--101/13--101 (state space)
 
 load('../mat/d2adcem3ss_no_svc.mat');
 
@@ -37,12 +42,13 @@ eig_track3 = eig(a_mat);
 h3 = plot(ax51,real(eig_track3(:,1)),imag(eig_track3(:,1)),'pentagram','lineWidth',0.75);
 
 ylabel(ax51,'Imaginary (rad/s)');
-xlabel(ax51,'Real');
+xlabel(ax51,'Real (1/s)');
 axis(ax51,[-3,1,0,10]);
 
 legend(ax51,[h1,h2,h3],{'post-fault 1','post-fault 2','post-fault 3'});
 
-% exporting data file
+% exporting data
+
 rl_vec1 = reshape(eig_track1,[1,numel(eig_track1)]);
 rl_vec2 = reshape(eig_track2,[1,numel(eig_track2)]);
 rl_vec3 = reshape(eig_track3,[1,numel(eig_track3)]);

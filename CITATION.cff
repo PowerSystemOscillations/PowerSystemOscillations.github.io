@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Rogers"
+  given-names: "Graham"
+- family-names: "Elliott"
+  given-names: "Ryan"
+  orcid: "https://orcid.org/0000-0002-2063-8488"
+- family-names: "Trudnowski"
+  given-names: "Daniel"
+- family-names: "Wilches-Bernal"
+  given-names: "Felipe"
+- family-names: "Osipov"
+  given-names: "Denis"
+- family-names: "Chow"
+  given-names: "Joe"
+title: "Power System Oscillations: An Introduction to Oscillation Analysis and Control"
+version: 1.0
+date-released:
+url: "https://github.com/powersystemoscillations/powersystemoscillations.github.io"

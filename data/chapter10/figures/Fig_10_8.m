@@ -4,10 +4,10 @@
 
 %% fig 10.8
 
-% d2adcem.mat:  2-area system, base case
-% d2adcem1.mat: 2-area system, one line 3--101
-% d2adcem2.mat: 2-area system, one line 13--101
-% d2adcem3.mat: 2-area system, one line each 3--101, 13--101
+% d2adcem.mat:  2-area system with dc exciters, no svc, base case
+% d2adcem1.mat: 2-area system with dc exciters, w/ svc, one line 3--101
+% d2adcem2.mat: 2-area system with dc exciters, w/ svc, one line 13--101
+% d2adcem3.mat: 2-area system with dc exciters, w/ svc, one line each 3--101, 13--101
 
 clear all; close all; clc;
 
@@ -44,7 +44,7 @@ plot(ax81,[0,-5],[0,5*tan(acos(0.05))],'k');
 axis(ax81,[-3,1,0,10]);
 
 ylabel(ax81,'Imaginary (rad/s)');
-xlabel(ax81,'Real');
+xlabel(ax81,'Real (1/s)');
 
 H8 = {'k','rpb','ipb','rzb','izb','rp1','ip1','rz1','iz1', ...
           'rp2','ip2','rz2','iz2','rp3','ip3','rz3','iz3'};

@@ -9,7 +9,7 @@
 % reactive loads constant impedance
 
 % Bus data format
-% bus: 
+% bus:
 % col1 number
 % col2 voltage magnitude(pu)
 % col3 voltage angle(degree)
@@ -258,8 +258,8 @@ exc_con = [...
 
 % thermal turbine/governor model
 %column	       data			unit
-%  1	turbine model number (=1)	
-%  2	machine number	
+%  1	turbine model number (=1)
+%  2	machine number
 %  3	speed set point   wf		pu
 %  4	steady state gain 1/R		pu
 %  5	maximum power order  Tmax	pu on generator base
@@ -318,9 +318,9 @@ tg_con = [...
 sw_con = [...
    0     0    0    0    0    0    0.005;%sets intitial time step
    10.0  1    2    0    0    6    0.005; %no fault at bus 1, on line 1-2
-   10.05 0    0    0    0    0    0.005; %clear fault at bus 
+   10.05 0    0    0    0    0    0.005; %clear fault at bus
    10.15 0    0    0    0    0    0.005; %clear remote end
-   15.0  0    0    0    0    0    0.005; % increase time step 
+   15.0  0    0    0    0    0    0.005; % increase time step
    30.0  0    0    0    0    0    0]; % end simulation
 %
 %

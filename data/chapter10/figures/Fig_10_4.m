@@ -4,7 +4,7 @@
 
 %% fig 10.4
 
-% d2adcemtran.mat: 2-area system with dc exciters and governors, simulation
+% d2adcemtran.mat: 2-area system with dc exciters, nonlinear simulation
 
 clear all; close all; clc;
 load('../mat/d2adcemtran.mat');

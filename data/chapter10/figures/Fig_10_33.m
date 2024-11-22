@@ -1,42 +1,63 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
 %% fig 10.33
 
-clear all; close all; clc;
-load('d2atcscs.mat');
+% d2atcscs.mat: 2-area test case dc exciters and tcsc control
 
-fig33_name = './dat/ch10_fig33.dat';
+clear all; close all; clc;
+load('../mat/d2atcscs.mat');
+load('../mat/control6.mat');                  % tcsc control
+
+%-------------------------------------%
+% fig 33
+
+fig33_name = './csv/ch10_fig33.csv';
 
 fig33 = figure;
-ax331 = subplot(2,1,1,'parent',fig33);
-ax332 = subplot(2,1,2,'parent',fig33);
-%
+ax331 = subplot(1,1,1,'parent',fig33);
 hold(ax331,'on');
-hold(ax332,'on');
-%
-set(ax331,'xscale','log');
-set(ax332,'xscale','log');
-%set(ax331,'yscale','log');
 
-sys_tcsc = ss(a_mat,b_tcsc(:,1),c_v(12,:),0);
-[sys_tcsc_red,~] = balred(sys_tcsc,8);  % remove negligible states
+sys_tcsc = ss(a_mat,[b_tcsc(:,1),b_lmod],[c_v(12,:);c_v([3 8],:);c_ang([3 8],:)],0);
 
-w_s = [linspace(0.01,2,128),linspace(2.1,100,128)]*2*pi;
-[mag_s,ph_s] = bode(sys_tcsc,w_s);
-[mag_sr,ph_sr] = bode(sys_tcsc_red,w_s);
+sc3 = ss(sc3.a,sc3.b,sc3.c,sc3.d);
+scr = ss(scr.a,scr.b,scr.c,scr.d);
+sys_rc = 100*sc3*scr;
 
-plot(ax331,w_s/2/pi,20*log10(squeeze(mag_s)),w_s/2/pi,20*log10(squeeze(mag_sr)));
-plot(ax332,w_s/2/pi,squeeze(wrapTo180(ph_s)),w_s/2/pi,squeeze(wrapTo180(ph_sr)));
+sys_tcsc_rc = feedback(sys_tcsc,sys_rc,1,1,1);
 
-xlabel(ax332,'Frequency (Hz)');
-ylabel(ax331,'Gain (dB)');
-ylabel(ax332,'Phase (deg)');
+%-------------------------------------%
+% robust control 1
 
-H33 = {'f','g','p','gr','pr'};
-M33 = [w_s/2/pi; 20*log10(squeeze(mag_s)).'; squeeze(wrapTo180(ph_s)).'; ...
-                 20*log10(squeeze(mag_sr)).'; squeeze(wrapTo180(ph_sr)).'];
+W_sv = logspace(-2,log10(100*2*pi),256);
+G_m = ss(sys_tcsc_rc.a,0.1*sys_tcsc_rc.b(:,[2,3]),20*sys_tcsc_rc.c([2,3],:),0);
+SV_m = sigma(G_m,W_sv);
+
+% l_mod to tie bus V_m and bus frequency
+G_a = ss(sys_tcsc_rc.a,0.1*sys_tcsc_rc.b(:,[2,3]),sys_tcsc_rc.c([4,5],:),0);
+
+% add rate filter to obtain c_f
+rate = tf([1 0],(2*pi*60)*[0.01 1]);
+G_f = 1000*[rate 0; 0 rate]*G_a;
+SV_f = sigma(G_f,W_sv);
+
+plot(ax331,W_sv/(2*pi),SV_m(1,:),W_sv/(2*pi),SV_f(1,:));
+set(ax331,'xscale','log','yscale','log');
+
+legend(ax331,{'bus voltage','bus frequency'},'location','northeast');
+
+axis(ax331,[1e-2 100 1e-3 1]);
+xlabel('Frequency (Hz)');
+
+% exporting data
+
+H33 = {'f_sv','SV_m','SV_f'};
+M33 = [W_sv/2/pi; SV_m(1,:); SV_f(1,:)];
 
 fid33 = fopen(fig33_name,'w');
-fprintf(fid33,'%s,%s,%s,%s,%s\n',H33{:});    % must match number of columns
-fprintf(fid33,'%6e,%6e,%6e,%6e,%6e\n',M33);  % must match number of columns
+fprintf(fid33,'%s,%s,%s\n',H33{:});
+fprintf(fid33,'%6e,%6e,%6e\n',M33);
 fclose(fid33);
 
 % eof

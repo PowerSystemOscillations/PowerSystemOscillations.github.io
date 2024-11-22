@@ -2,9 +2,18 @@
 % J. Chow, "Power System Oscillations: An Introduction to Oscillation
 % Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
 
-data16em.m: 16-generator test case with classical generator models
-data16m1t.m: 16-generator test case with one tie-line in service
-data16m2t.m: 16-generator test case with two tie-lines in service
-data16m3t.m: 16-generator test case with three tie-lines in service
+d16mgdcetg.m: 16-machine sys., dc exciters, thermal turbine/gov. on all units
+d16mgdcetgib.m: 16-machine sys., dc exciters, all except G16 are infinite buses
+
+d16mt1segib.m: 16-machine sys., 1 tie-line, static exc., all except G16 are infinite buses
+d16mt3segib.m: 16-machine sys., 3 tie-lines, static exc., all except G16 are infinite buses
+
+d16mt1setgp.m: 16-machine sys., 1 tie-line, static exc., pss on all units
+d16mt2setgp.m: 16-machine sys., 2 tie-lines, static exc., pss on all units
+d16mt3setgp.m: 16-machine sys., 3 tie-lines, static exc., pss on all units
+
+d16mt3seg.m: 16-machine sys., 3 tie-lines, static exc., hydro turbine/gov. on G1
+d16mt3setg.m: 16-machine sys., 3 tie-lines, static exc., thermal turbine/gov. on all units
+d16mt3setgp1--16.m: 16-machine sys., 3 tie-lines, static exc., pss on varying units (see files)
 
 % eof

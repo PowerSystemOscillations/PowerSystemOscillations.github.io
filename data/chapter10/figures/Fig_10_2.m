@@ -4,7 +4,8 @@
 
 %% fig 10.2
 
-% d2adcemss.mat: 2-area system with dc exciters and governors, base system
+% d2adcemss.mat: 2-area system with dc exciters and svc control,
+%                d2adcemss.m (state space)
 
 clear all; close all; clc;
 load('../mat/d2adcemss.mat');
@@ -26,9 +27,10 @@ plot(ax21,real(eig_track(:,1)),imag(eig_track(:,1)),'k+','lineWidth',0.75);
 axis(ax21,[-3,1,0,10]);
 
 ylabel(ax21,'Imaginary (rad/s)');
-xlabel(ax21,'Real');
+xlabel(ax21,'Real (1/s)');
 
-% exporting data file
+% exporting data
+
 rl_vec = reshape(eig_track,[1,numel(eig_track)]);
 
 H2 = {'k','mag','ang','re','im'};

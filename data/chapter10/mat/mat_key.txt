@@ -1,0 +1,77 @@
+% G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+% J. Chow, "Power System Oscillations: An Introduction to Oscillation
+% Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+
+dcpf1cont.mat: robust feedback control specification (state space)
+               (table 2)
+
+dcpf1cont2.mat: robust feedback control specification based on the
+                unshaped system (state space)
+                (figs. 44--49), (table 3)
+
+d2adcemss.mat: 2-area system with dc exciters and svc control,
+               d2adcemss.m (state space)
+               (figs. 2, 3, 7)
+
+d2adcemtran.mat: 2-area system with dc exciters, nonlinear simulation
+                 (fig. 4)
+
+d2adcem1ss_no_svc.mat: 2-area system with dc exciters, no svc,
+                       one line 3--101 (state space)
+                       (fig. 5)
+
+d2adcem2ss_no_svc.mat: 2-area system with dc exciters, no svc,
+                       one line 13--101 (state space)
+                       (fig. 5)
+
+d2adcem3ss_no_svc.mat: 2-area system with dc exciters, no svc,
+                       one line each 3--101/13--101 (state space)
+                       (fig. 8, 17)
+
+d2adcem.mat: 2-area system with dc exciters, no svc,
+             d2adcem.m (state space)
+             (figs. 8--16)
+
+d2adcem1.mat: 2-area system with dc exciters and svc control,
+              one line 3--101, d2adcem1.m (state space)
+              (fig. 8)
+
+d2adcem2.mat: 2-area system with dc exciters and svc control,
+              one line 13--101, d2adcem2.m (state space)
+              (fig. 8)
+
+d2adcem3.mat: 2-area system with dc exciters and svc control,
+              one line each 3--101/13--101, d2adcem3.m (state space)
+              (fig. 8, 17)
+
+d2adcem1ss.mat: 2-area system with dc exciters, one line 3--101,
+                svc control (state space)
+                (fig. 18, 19)
+
+d2adcem2rc1.mat: 2-area system with dc exciters, one line 13--101,
+                 robust control 1 (state space)
+                 (fig. 20, 23)
+
+d2adcem2rc2.mat: 2-area system with dc exciters, one line 13--101,
+                 robust control 2 (state space)
+                 (fig. 21--23)
+
+d2atcscs.mat: 2-area test case with dc exciters and tcsc control
+              (figs. 25, 26, 28--33)
+
+d2atcsct.mat: 2-area test case with dc exciters and tcsc control,
+              nonlinear simulation
+              (fig. 34)
+
+d2aphvdcss.mat: 2-area test case with hvdc, d2aphvdc.m (state space)
+                (figs. 36--49), (table 1)
+
+d2aphvdct.mat: 2-area test case with hvdc, no supplemental control,
+               nonlinear simulation
+               (fig. 50)
+
+d2aphvdct_cont2.mat: 2-area test case with hvdc, damping control 2,
+                     nonlinear simulation
+                     (fig. 50)
+
+% eof

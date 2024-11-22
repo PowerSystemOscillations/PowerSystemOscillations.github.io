@@ -4,12 +4,12 @@
 
 %% fig 10.13
 
-% d2adcem.mat: 2-area system with dc exciters and governors, base system
-% control.mat: state-space control specification
+% d2adcem.mat: 2-area system with dc exciters, no svc,
+%              d2adcem.m (state space)
 
 clear all; close all; clc;
 load('../mat/d2adcem.mat');
-load('../mat/control.mat');
+load('../mat/control.mat');                   % control specification
 
 %-------------------------------------%
 % fig 13
@@ -28,7 +28,7 @@ set(ax132,'xscale','log');
 %set(ax131,'yscale','log');
 
 sys_sv3 = ss(a_mat,b_svc(:,1),c_ilmf(5,:),0);
-[sys_sv3red,~] = balred(sys_sv3,13);           % remove negligible states
+[sys_sv3red,~] = balred(sys_sv3,13);          % remove negligible states
 
 sc = ss(sc.a,sc.b,sc.c,sc.d);
 scr = ss(scr.a,scr.b,scr.c,scr.d);

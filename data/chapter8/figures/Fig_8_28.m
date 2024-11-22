@@ -143,7 +143,7 @@ plot(ax281,real(eig_track_ip(:,1)),imag(eig_track_ip(:,1)),'r+','lineWidth',0.75
 axis(ax281,[-60,20,0,50]);
 
 ylabel(ax281,'Imaginary (rad/s)');
-xlabel(ax281,'Real');
+xlabel(ax281,'Real (1/s)');
 
 % exporting data file
 rl_vec_agg = reshape(eig_track_agg,[1,numel(eig_track_agg)]);
@@ -245,7 +245,7 @@ plot(ax282,real(eig_track_ip(:,1)),imag(eig_track_ip(:,1)),'r+','lineWidth',0.75
 axis(ax282,[-60,20,0,50]);
 
 ylabel(ax282,'Imaginary (rad/s)');
-xlabel(ax282,'Real');
+xlabel(ax282,'Real (1/s)');
 
 % exporting data file
 rl_vec_agg = reshape(eig_track_agg,[1,numel(eig_track_agg)]);
@@ -384,7 +384,7 @@ plot(ax283,real(eig_track_ip(:,1)),imag(eig_track_ip(:,1)),'r+','lineWidth',0.75
 axis(ax283,[-60,20,0,50]);
 
 ylabel(ax283,'Imaginary (rad/s)');
-xlabel(ax283,'Real');
+xlabel(ax283,'Real (1/s)');
 
 % exporting data file
 rl_vec_agg = reshape(eig_track_agg,[1,numel(eig_track_agg)]);
@@ -510,7 +510,7 @@ plot(ax284,real(eig_track_ip(:,1)),imag(eig_track_ip(:,1)),'r+','lineWidth',0.75
 axis(ax284,[-60,20,0,50]);
 
 ylabel(ax284,'Imaginary (rad/s)');
-xlabel(ax284,'Real');
+xlabel(ax284,'Real (1/s)');
 
 % exporting data file
 rl_vec_agg = reshape(eig_track_agg,[1,numel(eig_track_agg)]);

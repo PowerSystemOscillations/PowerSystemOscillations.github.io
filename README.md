@@ -64,7 +64,7 @@ Author bios may be [found here](abstracts/bios.md).
 
 ## Errata
 Errors and typographical mistakes found in the book will be
-[tracked here](errata.md).
+[tracked here](abstracts/errata.md).
 
 ## Navigating the homepage
 <a id="navigating"></a>

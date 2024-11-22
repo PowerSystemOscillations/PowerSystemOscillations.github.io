@@ -4,11 +4,10 @@
 
 %% fig 9.19
 
-% d2asbep.m: 2-area syst. with detailed gen. models and exciters, post-fault
-% sbepstsp.mat: state-space model based on d2asbep.m
+% sbepstsp.mat: 2-area syst. with detailed gen. models, exciters, and PSSs,
+%               d2asbep.m (state space)
 
 clear all; close all; clc;
-run('../cases/d2asbe.m');
 load('../mat/sbepstsp.mat');                   % load data file
 
 %-------------------------------------%
