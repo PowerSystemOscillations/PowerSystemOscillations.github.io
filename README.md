@@ -44,8 +44,8 @@ Author bios may be [found here](abstracts/bios.md).
 ### IEEE style
 
     G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
-    J. Chow, "Power System Oscillations: An Introduction to Oscillation
-    Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
+    J. Chow, *Power System Oscillations: An Introduction to Oscillation
+    Analysis and Control*, 2nd Ed., New York, NY: Springer, 2025.
 
 ### BibTeX
 
@@ -76,8 +76,9 @@ Errors and typographical mistakes found in the book will be
 
 ## Purchasing the book
 <a id="purchasing"></a>
-+ Visit the [Springer webpage here](https://link.springer.com/book/10.1007/978-3-031-80581-3)
-+ Or purchase the book [on Amazon here](https://www.amazon.com/Power-System-Oscillations-Introduction-Oscillation/dp/3031805801)
+If you would like to purchase the book, you may do so below:
++ Visit the [Springer webpage here](https://link.springer.com/book/10.1007/978-3-031-80581-3).
++ Or purchase the book [on Amazon here](https://www.amazon.com/Power-System-Oscillations-Introduction-Oscillation/dp/3031805801).
 
 ## Power System Toolbox for MATLAB
 <a id="pst"></a>
@@ -85,7 +86,7 @@ The Power System Toolbox (PST) for MATLAB is a user-developed package
 for simulating and analyzing the behavior of large-scale power
 systems. This repository contains three versions of PST intended for
 different purposes, [summarized here](software/README.md). To acquire
-these packages, you may [clone this repository](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io),
+these packages, you may [clone this repository](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io)
 or [download them individually](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/tree/main/software).
 
 For active research, we recommend using The Power and Energy Storage
@@ -94,10 +95,12 @@ System Toolbox (PSTess), which is an open-source software project
 
 ## Data and analysis files
 <a id="data"></a>
-+ This respository contains numerous data files and MATLAB scripts
+This respository contains numerous data files and MATLAB scripts
 corresponding to examples presented in the book. To access them,
-you may [clone this repository](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io),
-or [download the files individually](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/tree/main/data).
+you may [clone this repository](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io)
+or [download the files individually](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/tree/main/data). Some of the example
+files for Chapters 11--15 are currently under construction,
+so please check back at a future date.
 
 ## Book overview
 <a id="overview"></a>
@@ -136,5 +139,24 @@ the author team [via email here](mailto:PowerSystemOscillations@gmail.com).
 
 ## References
 <a id="references"></a>
+
+G. Rogers, *Power System Oscillations*, 1st ed., ser. Power
+Electronics and Power Systems. Springer, 2000.
+
+G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
+and J. H. Chow, *Power System Oscillations: An Introduction to
+Oscillation Analysis and Control*, 2nd ed. Springer, 2025.
+
+J. Chow and K. Cheung, "A toolbox for power system dynamics and
+control engineering education and research," *IEEE Trans. Power
+Syst.*, vol. 7, no. 4, pp. 1559–1564, 1992.
+
+J. Chow, "Power System Toolbox Version 3.0 manual." Available:
+https://www.ecse.rpi.edu/~chowj/PSTMan.pdf.
+
+R. Elliott, D. Trudnowski, H. Choi, and T. Nguyen, "The Power and
+Energy Storage Systems Toolbox – PSTess Version 1.0," SAND2021-11259,
+Sept. 2021. Available:
+[https://www.sandia.gov/ess-ssl/](https://www.sandia.gov/ess-ssl/wp-content/uploads/2021/09/sand2021_11259_pstess_elliott_choi.pdf).
 
 [comment]: <> (eof)
