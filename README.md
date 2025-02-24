@@ -76,21 +76,28 @@ Errors and typographical mistakes found in the book will be
 
 ## Purchasing the book
 <a id="purchasing"></a>
-+ Coming soon: Link to Springer or Amazon to buy the book
++ Visit the [Springer webpage here](https://link.springer.com/book/10.1007/978-3-031-80581-3)
++ Or purchase the book [on Amazon here](https://www.amazon.com/Power-System-Oscillations-Introduction-Oscillation/dp/3031805801)
 
 ## Power System Toolbox for MATLAB
 <a id="pst"></a>
-+ Explanation of PST versions, which to avoid, which to use
+The Power System Toolbox (PST) for MATLAB is a user-developed package
+for simulating and analyzing the behavior of large-scale power
+systems. This repository contains three versions of PST intended for
+different purposes, [summarized here](software/README.md). To acquire
+these packages, you may [clone this repository](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io),
+or [download them individually](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/tree/main/software).
 
-### Power System Toolbox (PST)
-+ Link to Joe's PST
-
-### Power and Energy Storage Systems Toolbox (PSTess)
-+ Description and link to PSTess
+For active research, we recommend using The Power and Energy Storage
+System Toolbox (PSTess), which is an open-source software project
+[hosted on GitHub](https://github.com/sandialabs/snl-pstess).
 
 ## Data and analysis files
 <a id="data"></a>
-+ Link to Matlab files
++ This respository contains numerous data files and MATLAB scripts
+corresponding to examples presented in the book. To access them,
+you may [clone this repository](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io),
+or [download the files individually](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/tree/main/data).
 
 ## Book overview
 <a id="overview"></a>
