@@ -152,7 +152,7 @@ control engineering education and research," *IEEE Trans. Power
 Syst.*, vol. 7, no. 4, pp. 1559–1564, 1992.
 
 J. Chow, "Power System Toolbox Version 3.0 manual." Available:
-https://www.ecse.rpi.edu/~chowj/PSTMan.pdf.
+[https://www.ecse.rpi.edu/~chowj/PSTMan.pdf](https://www.ecse.rpi.edu/~chowj/PSTMan.pdf).
 
 R. Elliott, D. Trudnowski, H. Choi, and T. Nguyen, "The Power and
 Energy Storage Systems Toolbox – PSTess Version 1.0," SAND2021-11259,
