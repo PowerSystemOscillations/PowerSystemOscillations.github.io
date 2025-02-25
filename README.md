@@ -22,7 +22,7 @@ addresses below.
 ### Email
 
 | Role                | Contact                               |
-| ------------------- | ------------------------------------- |
+|:------------------- |:------------------------------------- |
 | Author team account | `@gmail.com: PowerSystemOscillations` |
 | Project maintainer  | `@ieee.org: ryanelliott`              |
 
