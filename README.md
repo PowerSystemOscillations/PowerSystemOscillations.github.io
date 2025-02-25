@@ -20,6 +20,7 @@ addition to the Issues feature, we welcome feedback at the email
 addresses below.
 
 ### Email
+
 | Role                | Contact                               |
 | ------------------- | ------------------------------------- |
 | Author team account | `@gmail.com: PowerSystemOscillations` |
