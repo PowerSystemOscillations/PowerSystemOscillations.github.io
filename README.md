@@ -20,10 +20,10 @@ addition to the Issues feature, we welcome feedback at the email
 addresses below.
 
 ### Email
-| Role               | Contact                               |
-|--------------------|---------------------------------------|
-| Author team account| `@gmail.com: PowerSystemOscillations` |
-| Project maintainer | `@ieee.org: ryanelliott`              |
+| Role                | Contact                               |
+| ------------------- | ------------------------------------- |
+| Author team account | `@gmail.com: PowerSystemOscillations` |
+| Project maintainer  | `@ieee.org: ryanelliott`              |
 
 ### Dedication
 This second edition is dedicated to the memory of Graham Rogers, a
