@@ -5,11 +5,26 @@
 </div>
 
 ## Welcome
+
 Welcome to the homepage for Power System Oscillations, Second
 Edition. The [Navigating the homepage](#navigating-the-homepage)
 section will help point you in the right direction.
 
-## Contact
+## Navigating the homepage
+
+- [Contact information](#contact-information)
+- [License agreement](#license-agreement)
+- [Recommended citation](#recommended-citation)
+- [Errata](#errata)
+- [Purchasing the book](#purchasing-the-book)
+- [Power System Toolbox for MATLAB](#power-system-toolbox-for-matlab)
+- [Data and analysis files](#data-and-analysis-files)
+- [Book overview](#book-overview)
+- [Frequently asked questions](#frequently-asked-questions)
+- [References](#references)
+
+## Contact information
+
 For issues and feedback related to the code that accompanies the
 book, we would appreciate it if you could use the
 [Issues feature](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/issues)
@@ -27,11 +42,13 @@ addresses below.
 | Project maintainer  | `@ieee.org: ryanelliott`              |
 
 ### Dedication
+
 This second edition is dedicated to the memory of Graham Rogers, a
 modest scientist and engineer, whose contributions to power system
 small-signal analysis are immense.
 
 ### Authors
+
 Graham J. Rogers, *Cherry Tree Scientific Software*<br />
 Ryan T. Elliott, *Sandia National Laboratories*<br />
 Daniel J. Trudnowski, *Montana Tech*<br />
@@ -41,10 +58,11 @@ Joe H. Chow, *Rensselaer Polytechnic Institute*
 
 Author bios may be [found here](abstracts/bios.md).
 
-## License
-This project is licensed under the Creative Commons CC BY-NC 4.0
-license--see the
-[LICENSE](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/blob/main/LICENSE)
+## License agreement
+
+The data and example files hosted in this repository are licensed
+under the Creative Commons CC BY-NC 4.0 license–see
+the [LICENSE](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/blob/main/LICENSE)
 file for details.
 
 ## Recommended citation
@@ -75,31 +93,26 @@ file for details.
 Errors and typographical mistakes found in the book will be
 [tracked here](abstracts/errata.md).
 
-## Navigating the homepage
-
-- [Purchasing the book](#purchasing-the-book)
-- [Power System Toolbox for MATLAB](#power-system-toolbox-for-matlab)
-- [Data and analysis files](#data-and-analysis-files)
-- [Book overview](#book-overview)
-- [Frequently asked questions](#frequently-asked-questions)
-- [References](#references)
-
 ## Purchasing the book
 
-If you would like to purchase the book, you may do so below:
-+ Visit the [Springer webpage here](https://link.springer.com/book/10.1007/978-3-031-80581-3).
-+ Or purchase the book [on Amazon here](https://www.amazon.com/Power-System-Oscillations-Introduction-Oscillation/dp/3031805801).
+To purchase *Power System Oscillations: An Introduction to Oscillation Analysis and Control*, 2nd Ed., please see the options below:
+- Visit the [Springer webpage here](https://link.springer.com/book/10.1007/978-3-031-80581-3).
+- Or purchase the book [on Amazon here](https://www.amazon.com/Power-System-Oscillations-Introduction-Oscillation/dp/3031805801).
 
 ## Power System Toolbox for MATLAB
 
 The Power System Toolbox (PST) for MATLAB is a user-developed package
 for simulating and analyzing the behavior of large-scale power
-systems. This repository contains three versions of PST intended for
-different purposes, [summarized here](software/README.md). To acquire
-these packages, you may [clone this repository](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io)
+systems. It was originally created by Dr.&nbsp;Joe Chow and his
+graduate students at Rensselaer Polytechnic Institute (RPI) and later
+substantially upgraded by Graham Rogers.
+
+This repository contains three versions of PST intended for different
+purposes, [summarized here](software/README.md). To acquire these
+packages, you may [clone this repository](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io)
 or [download them individually](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/tree/main/software).
 
-For active research, we recommend using The Power and Energy Storage
+For active research, we recommend using the Power and Energy Storage
 System Toolbox (PSTess), which is an open-source software project
 [hosted on GitHub](https://github.com/sandialabs/snl-pstess).
 
@@ -108,9 +121,10 @@ System Toolbox (PSTess), which is an open-source software project
 This repository contains numerous data files and MATLAB scripts
 corresponding to examples presented in the book. To access them,
 you may [clone this repository](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io)
-or [download the files individually](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/tree/main/data). Some of the example
-files for Chapters 11--15 are currently under construction,
-so please check back at a future date.
+or [download the files individually](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/tree/main/data). Some
+of the example files for Chapters 11–15 are currently under
+construction, so please check back at a later date if you don't see
+what you're looking for.
 
 ## Book overview
 
@@ -125,7 +139,7 @@ so please check back at a future date.
     - [Chapter 5: Power System Structure and Oscillations](abstracts/chapter5.md)
     - [Chapter 6: Generator Controls](abstracts/chapter6.md)
     - [Chapter 7: Power System Stabilizers](abstracts/chapter7.md)
-    - [Chapter 8: Power System Stabilizer Implementation--Problems and Solutions](abstracts/chapter8.md)
+    - [Chapter 8: Power System Stabilizer Implementation–Problems and Solutions](abstracts/chapter8.md)
 - Part II: Robust Control
     - [Chapter 9: Robust Control](abstracts/chapter9.md)
     - [Chapter 10: Damping by Electronic Power System Devices](abstracts/chapter10.md)
@@ -144,12 +158,11 @@ Please use the
 [Issues feature](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/issues)
 of this repository. This helps others join the discussion and helps
 us keep track of and document issues. Alternatively, you can contact
-the author team [via email here](mailto:PowerSystemOscillations@gmail.com).
+the author team [via email here](#contact-information).
 
 ## References
 
-G. Rogers, *Power System Oscillations*, 1st ed., ser. Power
-Electronics and Power Systems. Springer, 2000.
+G. Rogers, *Power System Oscillations*, 1st ed., Springer, 2000.
 
 G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
 and J. H. Chow, *Power System Oscillations: An Introduction to
