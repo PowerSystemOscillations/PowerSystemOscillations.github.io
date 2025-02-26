@@ -178,4 +178,14 @@ Energy Storage Systems Toolbox – PSTess Version 1.0," SAND2021-11259,
 Sept. 2021. Available:
 [https://www.sandia.gov/ess-ssl/](https://www.sandia.gov/ess-ssl/wp-content/uploads/2021/09/sand2021_11259_pstess_elliott_choi.pdf).
 
+<style>
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #0d1117; /* GitHub dark mode background color */
+        color: #c9d1d9;            /* GitHub dark mode text color */
+    }
+}
+</style>
+
 [comment]: <> (eof)
