@@ -25,14 +25,13 @@ section will help point you in the right direction.
 
 ## Contact information
 
-For issues and feedback related to the code that accompanies the
-book, we would appreciate it if you could use the
-[Issues feature](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/issues)
-of this repository. This helps others join the discussion and helps
-us keep track of and document issues. This is also a good way to
-inform us about typos or potential errors in the book itself. In
-addition to the Issues feature, we welcome feedback at the email
-addresses below.
+For issues and feedback related to the code that accompanies the book,
+we would appreciate it if you could use the [Issues feature](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/issues)
+of this repository. This helps others join the discussion and helps us
+keep track of and document issues. This is also a good way to inform
+us about typos or potential errors in the book itself. In addition to
+the [Issues feature](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/issues),
+we welcome feedback at the email addresses below.
 
 ### Email
 
@@ -62,8 +61,7 @@ Author bios may be [found here](abstracts/bios.md).
 
 The data and example files hosted in this repository are licensed
 under the Creative Commons CC BY-NC 4.0 license–see
-the [LICENSE](https://github.com/PowerSystemOscillations/PowerSystemOscillations.github.io/blob/main/LICENSE)
-file for details.
+the [LICENSE](LICENSE) file for details.
 
 ## Recommended citation
 
@@ -162,11 +160,11 @@ the author team [via email here](#contact-information).
 
 ## References
 
-G. Rogers, *Power System Oscillations*, 1st ed., Springer, 2000.
+G. Rogers, *Power System Oscillations*, 1st Ed., Springer, 2000.
 
 G. Rogers, R. Elliott, D. Trudnowski, F. Wilches-Bernal, D. Osipov,
 and J. H. Chow, *Power System Oscillations: An Introduction to
-Oscillation Analysis and Control*, 2nd ed. Springer, 2025.
+Oscillation Analysis and Control*, 2nd Ed., Springer, 2025.
 
 J. Chow and K. Cheung, "A toolbox for power system dynamics and
 control engineering education and research," *IEEE Trans. Power
