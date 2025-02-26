@@ -3,6 +3,5 @@ title: "Power System Oscillations"
 
 theme: minima
 
-# Disable the table of contents
 minima:
   include_nav: false
