@@ -61,7 +61,7 @@ Author bios may be [found here](abstracts/bios.md).
 
 The data and example files hosted in this repository are licensed
 under the Creative Commons CC BY-NC 4.0 license–see
-the [LICENSE](LICENSE) file for details.
+the [LICENSE](https://raw.githubusercontent.com/PowerSystemOscillations/PowerSystemOscillations.github.io/main/LICENSE) file for details.
 
 ## Recommended citation
 
