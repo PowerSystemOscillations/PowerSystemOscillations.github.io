@@ -1,6 +1,6 @@
 name: "Power System Oscillations"
 title: "Power System Oscillations"
 
-remote_theme: pages-themes/primer@v0.2.0
+remote_theme: pages-themes/primer
 plugins:
   - jekyll-remote-theme
