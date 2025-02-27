@@ -1,0 +1,9 @@
+/* assets/css/custom.css */
+
+/* Import GitHub's CSS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css');
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown-dark.min.css');
+}
