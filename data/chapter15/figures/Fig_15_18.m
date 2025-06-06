@@ -2,12 +2,12 @@
 % J. Chow, "Power System Oscillations: An Introduction to Oscillation
 % Analysis and Control," 2nd Ed., New York, NY: Springer, 2025.
 
-%% fig 15.16
+%% fig 15.18
 
 clear all; close all; clc;
 
 %-------------------------------------%
-% fig 16
+% fig 18
 
 fig18_name = './csv/ch15_fig18.csv';
 
@@ -18,12 +18,6 @@ hold(ax181,'on');
 hold(ax182,'on');
 set(ax181,'xscale','log');
 set(ax182,'xscale','log');
-
-t_final = 5;
-H_flag = 0;
-
-Fs = 120;
-tt = 0:1/Fs:t_final;
 
 % vsm analysis
 
